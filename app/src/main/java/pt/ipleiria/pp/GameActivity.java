@@ -112,9 +112,6 @@ public class GameActivity extends AppCompatActivity {
 
         Intent i = getIntent();
 
-       if(i.getStringExtra("FinishTask") != null){
-           Snackbar.make(findViewById(android.R.id.content), "Tarefa Concluida!", Snackbar.LENGTH_LONG).show();
-       }
 
 
         if (i.getStringExtra(ID_VIEW_GAME) != null || i.getStringExtra("FinishTask") != null) {
@@ -128,6 +125,24 @@ public class GameActivity extends AppCompatActivity {
                 final String id = i.getStringExtra("FinishTask");
                 game = PPB.containsID(id);
 
+            }
+
+            if(i.getStringExtra("FinishTask") != null) {
+                Snackbar.make(findViewById(android.R.id.content), "Tarefa Concluida!", Snackbar.LENGTH_LONG).show();
+
+                boolean alltrue = true;
+                for (int j = 0; j < game.getTasks().size(); j++) {
+                    if (!game.getTasks().get(j).isTaskComplete()) {
+                        alltrue = false;
+                    }
+                }
+                if (alltrue == true) {
+                    game.setGamewin(true);
+                    game.setGameLost(false);
+                    Intent intentwin = new Intent(GameActivity.this, win.class);
+                    startActivity(intentwin);
+                    finish();
+                }
             }
 
             mAdapter.updateFullList(game);
@@ -222,7 +237,9 @@ public class GameActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.upbar, menu);
         return true;
     }
-
+    public void onClick_action_return(MenuItem item) {
+        onBackPressed();
+    }
 
     private void addFence(final String fenceKey, final AwarenessFence fence) {
         Awareness.getFenceClient(this).updateFences(new FenceUpdateRequest.Builder()
@@ -242,8 +259,6 @@ public class GameActivity extends AppCompatActivity {
 
     public void onclick(View view) {
         queryFences();
-        printNearbyPlaces();
-        printWeather();
     }
 
     private class FenceReceiver extends BroadcastReceiver {
@@ -388,9 +403,7 @@ public class GameActivity extends AppCompatActivity {
                 });
     }
 
-    public void onClick_action_return(MenuItem item) {
-        onBackPressed();
-    }
+
 
     private void setupRecycler() {
 
@@ -408,85 +421,6 @@ public class GameActivity extends AppCompatActivity {
                 new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
     }
 
-    private void checkFineLocationPermission() {
-        if (ContextCompat.checkSelfPermission(GameActivity.this,
-                Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(GameActivity.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
-                    REQUEST_CODE_FLPERMISSION // todo: declare this constant
-            );
-        }
-        try {
-            int locationMode = Settings.Secure.getInt(getContentResolver(), Settings.Secure.LOCATION_MODE);
-            if (locationMode != Settings.Secure.LOCATION_MODE_HIGH_ACCURACY) {
-                Toast.makeText(this, "Error: high accuracy location mode must be enabled in the device.", Toast.LENGTH_LONG).show();
-                return;
-            }
-        } catch (Settings.SettingNotFoundException e) {
-            Toast.makeText(this, "Error: could not access location mode.", Toast.LENGTH_LONG).show();
-            e.printStackTrace();
-            return;
-        }
-    }
-
-    private void printWeather() {
-        checkFineLocationPermission();
-        Awareness.getSnapshotClient(this).getWeather()
-                .addOnSuccessListener(new OnSuccessListener<WeatherResponse>() {
-                    @Override
-                    public void onSuccess(WeatherResponse weatherResponse) {
-                        Weather weather = weatherResponse.getWeather();
-                        String text = "";
-
-                        for (int condition : weather.getConditions()) {
-                            switch (condition) {
-                                case Weather.CONDITION_RAINY:
-                                    text += " Rainy weather condition.";
-                                    break;
-
-                                default :
-                                    text += "It's not raining";
-                            }
-                        }
-
-                        Log.d("weather", text);
-                        //  textView_main2.setText("weather: "+text);
-                    }
-                })
-                .addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        Log.e("weather", "Could not get Weather: " + e);
-                        Toast.makeText(GameActivity.this, "Could not get Weather: " + e, Toast.LENGTH_SHORT).show();
-                    }
-                });
-    }
-
-    private void printNearbyPlaces() {
-        checkFineLocationPermission();
-        Awareness.getSnapshotClient(this).getPlaces().addOnSuccessListener(new OnSuccessListener<PlacesResponse>() {
-            @Override
-            public void onSuccess(PlacesResponse placesResponse) {
-                List<PlaceLikelihood> pll = placesResponse.getPlaceLikelihoods();
-
-                Log.d("places", "1"+pll.get(0).getPlace().getName().toString());
-                Log.d("places", "2"+pll.get(1).getPlace().getName().toString());
-                Log.d("places", "3"+pll.get(2).getPlace().getName().toString());
-
-//                textView_main.setText(pll.get(0).getPlace().getName()+"\n"+pll.get(0).getPlace().getLatLng()+"\n"
-//                        +pll.get(1).getPlace().getName()+"\n"+pll.get(1).getPlace().getLatLng()+"\n"
-//                        +pll.get(2).getPlace().getName()+"\n"+pll.get(2).getPlace().getLatLng());
-
-            }
-        })
-                .addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        Log.e("places", "Could not get Places: " + e);
-                        Toast.makeText(GameActivity.this, "Could not get Places: " + e,
-                                Toast.LENGTH_SHORT).show();
-                    }
-                });
-    }
 
     public Date getDate() {
         Date date = Calendar.getInstance().getTime();

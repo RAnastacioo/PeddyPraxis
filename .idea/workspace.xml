@@ -19,7 +19,88 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0000e3c-ae94-42d7-99cc-1423e6698b7c" name="Default" comment="" />
+    <list default="true" id="b0000e3c-ae94-42d7-99cc-1423e6698b7c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$FenceReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity$FenceReceiver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/GameActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/MainActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/MainActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/model/SingletonPPB.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/pt/ipleiria/pp/model/SingletonPPB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$FenceReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity$FenceReceiver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/GameActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/MainActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/MainActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/model/SingletonPPB.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/pt/ipleiria/pp/model/SingletonPPB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$10.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$4.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$5.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$6.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$6.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$7.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$8.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$9.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$FenceReceiver.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity$FenceReceiver.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/GameActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/MainActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/MainActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/model/SingletonPPB.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145/pt/ipleiria/pp/model/SingletonPPB.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/5/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/5/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$FenceReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity$FenceReceiver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/GameActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/MainActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/MainActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/model/SingletonPPB.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/pt/ipleiria/pp/model/SingletonPPB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/BibliotecaActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/BibliotecaActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/GameActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/GameActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/OpatioActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/OpatioActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/OsEdificios.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/OsEdificios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/TaskActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/TaskActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/model/SingletonPPB.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/model/SingletonPPB.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +140,6 @@
       <find>check</find>
       <find>scren</find>
       <find>screenDown</find>
-      <find>addFence</find>
       <find>Weatherstate</find>
       <find>state</find>
       <find>setTi</find>
@@ -69,6 +149,7 @@
       <find>taskOrder</find>
       <find>game</find>
       <find>Finish</find>
+      <find>addFence</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2383,15 +2464,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/recyclerView/LineHolder_game.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/model/Task.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/recyclerView/LineAdapter_game.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/TaskActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/melhorcurso.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_record_voice.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/SalaAula.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/MelhorCurso.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/Descompressao.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/BibliotecaActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/OsEdificios.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/OpatioActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/recyclerView/LineAdapter_task.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_task_view.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/model/Game.java" />
@@ -2399,6 +2476,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/model/SingletonPPB.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/GameActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/OpatioActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/BibliotecaActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/OsEdificios.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/TaskActivity.java" />
       </list>
     </option>
   </component>
@@ -2415,27 +2496,6 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PeddyPraxis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeddyPraxis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeddyPraxis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeddyPraxis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeddyPraxis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeddyPraxis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2457,7 +2517,29 @@
             <path>
               <item name="PeddyPraxis" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="pp" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PeddyPraxis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PeddyPraxis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="PeddyPraxis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PeddyPraxis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PeddyPraxis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PeddyPraxis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2610,7 +2692,7 @@
   <component name="ToolWindowManager">
     <frame x="1433" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
@@ -2655,7 +2737,7 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="54" />
+      <option name="time" value="56" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="app">
@@ -2676,14 +2758,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_gametask.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/recyclerView/LineHolder_task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -2706,10 +2780,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/switch_item.xml">
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="text-editor">
         <state />
       </provider>
     </entry>
@@ -2771,10 +2845,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_game_view.xml">
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="text-editor">
         <state />
       </provider>
     </entry>
@@ -2793,21 +2867,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_gameover.xml">
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="text-editor">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_win.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/winActivity.java" />
@@ -2819,13 +2893,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="539">
           <caret line="93" column="41" lean-forward="true" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
         </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/recyclerView/LineHolder_game.java">
@@ -2849,34 +2923,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/TaskActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="340" column="89" selection-start-line="340" selection-start-column="89" selection-end-line="340" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_task.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="54" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_lost.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="36" lean-forward="true" selection-start-line="1" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/recyclerView/LineAdapter_game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -2895,55 +2955,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/melhorcurso.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/SalaAula.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="131" column="20" lean-forward="true" selection-start-line="131" selection-start-column="20" selection-end-line="135" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/Descompressao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="219" column="32" selection-start-line="219" selection-start-column="32" selection-end-line="219" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/BibliotecaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/OsEdificios.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="497" column="29" selection-start-line="495" selection-start-column="18" selection-end-line="499" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/OpatioActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="113" column="31" lean-forward="true" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_task_view.xml">
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="text-editor">
         <state />
       </provider>
     </entry>
@@ -2954,27 +2979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/MelhorCurso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="63" selection-start-line="62" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/model/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="131" column="37" selection-start-line="131" selection-start-column="37" selection-end-line="131" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/model/SingletonPPB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/SplashScreenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
@@ -2982,17 +2986,252 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/model/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/recyclerView/LineAdapter_game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/model/SingletonPPB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="76" column="6" lean-forward="true" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+        <state relative-caret-position="-113">
+          <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/Descompressao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/GameActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="202" column="39" selection-start-line="202" selection-start-column="39" selection-end-line="202" selection-end-column="39" />
+        <state relative-caret-position="360">
+          <caret line="262" lean-forward="true" selection-start-line="262" selection-end-line="262" />
+          <folding>
+            <element signature="method#onCreate#0;class#GameActivity#0" />
+            <element signature="method#queryFences#0;class#GameActivity#0" />
+            <element signature="method#onPause#0;class#GameActivity#0" />
+            <element signature="method#onResume#0;class#GameActivity#0" />
+            <element signature="method#onCreateOptionsMenu#0;class#GameActivity#0" />
+            <element signature="method#addFence#0;class#GameActivity#0" />
+            <element signature="class#FenceReceiver#0;class#GameActivity#0" />
+            <element signature="method#onReceive#0;class#FenceReceiver#0;class#GameActivity#0" />
+            <element signature="method#notifyItem#0;class#GameActivity#0" />
+            <element signature="method#clearnotify#0;class#GameActivity#0" />
+            <element signature="method#removeFences#0;class#GameActivity#0" />
+            <element signature="method#setupRecycler#0;class#GameActivity#0" />
+            <element signature="method#getDate#0;class#GameActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/GameOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="method#onCreate#0;class#GameOver#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/MelhorCurso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+          <folding>
+            <element signature="method#onCreate#0;class#MelhorCurso#0" />
+            <element signature="method#onActivityResult#0;class#MelhorCurso#0" />
+            <element signature="method#onCreateOptionsMenu#0;class#MelhorCurso#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/OpatioActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="291" column="16" selection-start-line="291" selection-start-column="8" selection-end-line="291" selection-end-column="16" />
+          <folding>
+            <element signature="docComment;class#OpatioActivity#0" />
+            <element signature="method#onCreate#0;class#OpatioActivity#0" />
+            <element signature="class#5020:5555" />
+            <element signature="method#handleMessage#0;class#5020:5555" />
+            <element signature="method#setTimer#0;class#OpatioActivity#0" />
+            <element signature="class#6055:8584" />
+            <element signature="method#onTick#0;class#6055:8584" />
+            <element signature="method#onFinish#0;class#6055:8584" />
+            <element signature="class#8615:9338" />
+            <element signature="method#onTick#0;class#8615:9338" />
+            <element signature="method#createCameraSource#0;class#OpatioActivity#0" />
+            <element signature="method#startCameraSource#0;class#OpatioActivity#0" />
+            <element signature="e#10895#10920#0" />
+            <element signature="method#addFence#0;class#OpatioActivity#0" />
+            <element signature="class#11862:12015" />
+            <element signature="method#onSuccess#0;class#11862:12015" />
+            <element signature="class#12059:12216" />
+            <element signature="method#onFailure#0;class#12059:12216" />
+            <element signature="method#onPause#0;class#OpatioActivity#0" />
+            <element signature="method#onDestroy#0;class#OpatioActivity#0" />
+            <element signature="method#queryFences#0;class#OpatioActivity#0" />
+            <element signature="method#getRequiredPermissions#0;class#OpatioActivity#0" />
+            <element signature="method#allPermissionsGranted#0;class#OpatioActivity#0" />
+            <element signature="method#getRuntimePermissions#0;class#OpatioActivity#0" />
+            <element signature="method#onRequestPermissionsResult#0;class#OpatioActivity#0" />
+            <element signature="method#isPermissionGranted#0;class#OpatioActivity#0" />
+            <element signature="method#dsfsf#0;class#OpatioActivity#0" />
+            <element signature="method#removeFences#0;class#OpatioActivity#0" />
+            <element signature="class#16669:16823" />
+            <element signature="method#onSuccess#0;class#16669:16823" />
+            <element signature="class#16867:17025" />
+            <element signature="method#onFailure#0;class#16867:17025" />
+            <element signature="class#FenceReceiver#0;class#OpatioActivity#0" />
+            <element signature="method#onReceive#0;class#FenceReceiver#0;class#OpatioActivity#0" />
+            <element signature="method#onCreateOptionsMenu#0;class#OpatioActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/BibliotecaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="318" column="76" selection-start-line="318" selection-start-column="76" selection-end-line="318" selection-end-column="76" />
+          <folding>
+            <element signature="method#onCreate#0;class#BibliotecaActivity#0" />
+            <element signature="method#onActivityResult#0;class#BibliotecaActivity#0" />
+            <element signature="method#runCloudTextRecognition#0;class#BibliotecaActivity#0" />
+            <element signature="method#processCloudTextRecognitionResult#0;class#BibliotecaActivity#0" />
+            <element signature="method#queryFences#0;class#BibliotecaActivity#0" />
+            <element signature="method#removeFences#0;class#BibliotecaActivity#0" />
+            <element signature="class#8449:8603" />
+            <element signature="method#onSuccess#0;class#8449:8603" />
+            <element signature="class#8647:8805" />
+            <element signature="method#onFailure#0;class#8647:8805" />
+            <element signature="method#addFence#0;class#BibliotecaActivity#0" />
+            <element signature="class#9118:9271" />
+            <element signature="method#onSuccess#0;class#9118:9271" />
+            <element signature="class#9315:9472" />
+            <element signature="method#onFailure#0;class#9315:9472" />
+            <element signature="class#FenceReceiver#0;class#BibliotecaActivity#0" />
+            <element signature="method#onReceive#0;class#FenceReceiver#0;class#BibliotecaActivity#0" />
+            <element signature="method#OnCLickDetectBuilding#0;class#BibliotecaActivity#0" />
+            <element signature="method#onPause#0;class#BibliotecaActivity#0" />
+            <element signature="e#12603#12628#0" />
+            <element signature="method#onCreateOptionsMenu#0;class#BibliotecaActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/OsEdificios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="285" column="71" lean-forward="true" selection-start-line="285" selection-start-column="71" selection-end-line="285" selection-end-column="71" />
+          <folding>
+            <element signature="method#onCreate#0;class#OsEdificios#0" />
+            <element signature="method#startGalleryChooser#0;class#OsEdificios#0" />
+            <element signature="method#startCamera#0;class#OsEdificios#0" />
+            <element signature="method#getCameraFile#0;class#OsEdificios#0" />
+            <element signature="method#onActivityResult#0;class#OsEdificios#0" />
+            <element signature="method#onRequestPermissionsResult#0;class#OsEdificios#0" />
+            <element signature="method#queryFences#0;class#OsEdificios#0" />
+            <element signature="method#removeFences#0;class#OsEdificios#0" />
+            <element signature="class#10813:10967" />
+            <element signature="method#onSuccess#0;class#10813:10967" />
+            <element signature="class#11011:11169" />
+            <element signature="method#onFailure#0;class#11011:11169" />
+            <element signature="e#11398#11423#0" />
+            <element signature="method#addFence#0;class#OsEdificios#0" />
+            <element signature="class#12807:12960" />
+            <element signature="method#onSuccess#0;class#12807:12960" />
+            <element signature="class#13004:13161" />
+            <element signature="method#onFailure#0;class#13004:13161" />
+            <element signature="class#FenceReceiver#0;class#OsEdificios#0" />
+            <element signature="method#onReceive#0;class#FenceReceiver#0;class#OsEdificios#0" />
+            <element signature="method#uploadImage#0;class#OsEdificios#0" />
+            <element signature="class#PredictTask#0;class#OsEdificios#0" />
+            <element signature="method#onPreExecute#0;class#PredictTask#0;class#OsEdificios#0" />
+            <element signature="method#doInBackground#0;class#PredictTask#0;class#OsEdificios#0" />
+            <element signature="e#17039#17104#0" />
+            <element signature="method#scaleBitmapDown#0;class#OsEdificios#0" />
+            <element signature="method#onPause#0;class#OsEdificios#0" />
+            <element signature="method#onCreateOptionsMenu#0;class#OsEdificios#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/SalaAula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="102" column="54" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="54" />
+          <folding>
+            <element signature="method#onCreate#0;class#SalaAula#0" />
+            <element signature="method#onActivityResult#0;class#SalaAula#0" />
+            <element signature="method#runCloudLabel#0;class#SalaAula#0" />
+            <element signature="method#queryFences#0;class#SalaAula#0" />
+            <element signature="method#OnCLickDetectBuilding#0;class#SalaAula#0" />
+            <element signature="method#onCreateOptionsMenu#0;class#SalaAula#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pt/ipleiria/pp/TaskActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="390" column="25" selection-start-line="390" selection-start-column="17" selection-end-line="390" selection-end-column="25" />
+          <folding>
+            <element signature="method#onCreate#0;class#TaskActivity#0" />
+            <element signature="method#queryFences#0;class#TaskActivity#0" />
+            <element signature="method#onPause#0;class#TaskActivity#0" />
+            <element signature="method#onCreateOptionsMenu#0;class#TaskActivity#0" />
+            <element signature="e#9312#9337#0" />
+            <element signature="e#10361#10386#0" />
+            <element signature="e#12090#12115#0" />
+            <element signature="e#13061#13086#0" />
+            <element signature="class#14711:14888" />
+            <element signature="method#onClick#0;class#14711:14888" />
+            <element signature="class#15937:16114" />
+            <element signature="method#onClick#0;class#15937:16114" />
+            <element signature="method#checkAndRequestPermissions#0;class#TaskActivity#0" />
+            <element signature="method#addFence#0;class#TaskActivity#0" />
+            <element signature="class#18088:18241" />
+            <element signature="method#onSuccess#0;class#18088:18241" />
+            <element signature="class#18285:18442" />
+            <element signature="method#onFailure#0;class#18285:18442" />
+            <element signature="class#FenceReceiver#0;class#TaskActivity#0" />
+            <element signature="method#onReceive#0;class#FenceReceiver#0;class#TaskActivity#0" />
+            <element signature="class#20382:20607" />
+            <element signature="method#onClick#0;class#20382:20607" />
+            <element signature="class#22024:22249" />
+            <element signature="method#onClick#0;class#22024:22249" />
+            <element signature="class#23712:23937" />
+            <element signature="method#onClick#0;class#23712:23937" />
+            <element signature="class#25150:25375" />
+            <element signature="method#onClick#0;class#25150:25375" />
+            <element signature="method#notifyItem#0;class#TaskActivity#0" />
+            <element signature="method#clearnotify#0;class#TaskActivity#0" />
+            <element signature="method#removeFences#0;class#TaskActivity#0" />
+            <element signature="class#28295:28449" />
+            <element signature="method#onSuccess#0;class#28295:28449" />
+            <element signature="class#28493:28651" />
+            <element signature="method#onFailure#0;class#28493:28651" />
+          </folding>
         </state>
       </provider>
     </entry>

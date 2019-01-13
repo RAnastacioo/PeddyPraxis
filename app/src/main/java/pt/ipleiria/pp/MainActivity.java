@@ -63,13 +63,9 @@ public class MainActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_rrGame:
                    SingletonPPB.getInstance().resetGames();
-                    CoordinatorLayout coordinatorLayout=(CoordinatorLayout)findViewById(R.id.coordinatorLayout);
-                    Snackbar snackbar = Snackbar.make(coordinatorLayout, "You can play again!", Snackbar.LENGTH_SHORT);
-                    View view = snackbar.getView();
-                    CoordinatorLayout.LayoutParams params=(CoordinatorLayout.LayoutParams)view.getLayoutParams();
-                    params.gravity = Gravity.TOP;
-                    view.setLayoutParams(params);
-                    snackbar.show();
+                    Intent intent = new Intent(MainActivity.this, MainActivity.class);
+                    startActivity(intent);
+                    finish();
                     return true;
             }
             return false;

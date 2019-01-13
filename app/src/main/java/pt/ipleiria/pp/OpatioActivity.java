@@ -302,7 +302,7 @@ public final class OpatioActivity extends AppCompatActivity
             return;
         }
 
-        AwarenessFence inLocationFence = LocationFence.in(39.735729, -8.820847, 200, 0L);
+        AwarenessFence inLocationFence = LocationFence.in(39.73557424,-8.82109344, 30, 0L);
         addFence("localFenceA", inLocationFence);
 
     }

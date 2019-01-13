@@ -245,7 +245,7 @@ public class TaskActivity extends AppCompatActivity {
                     return;
                 }
 
-                AwarenessFence inLocationFence = LocationFence.in(39.735729, -8.820847, 200, 0L);
+                AwarenessFence inLocationFence = LocationFence.in(39.73557424,-8.82109344, 30, 0L);
                 addFence("localFence", inLocationFence);
 
 
@@ -262,12 +262,12 @@ public class TaskActivity extends AppCompatActivity {
                         // for ActivityCompat#requestPermissions for more details.
                         return;
                     }
-                    AwarenessFence A = LocationFence.in(39.735729, -8.820847, 200, 0L);
-                    AwarenessFence B = LocationFence.in(39.734468, -8.821494, 200, 0L);
-                    AwarenessFence C = LocationFence.in(39.733865, -8.821885, 200, 0L);
-                    AwarenessFence D = LocationFence.in(39.734490, -8.820937, 200, 0L);
-                    AwarenessFence E = LocationFence.in(39.732870, -8.822050, 200, 0L);
-                    AwarenessFence bibli = LocationFence.in(39.733465, -8.820731, 200, 0L);
+                    AwarenessFence A = LocationFence.in(39.73478631,-8.82090569, 30, 0L);
+                    AwarenessFence B = LocationFence.in(39.73439853, -8.82157087, 30, 0L);
+                    AwarenessFence C = LocationFence.in(39.73389524, -8.82194638, 30, 0L);
+                    AwarenessFence D = LocationFence.in(39.73436965, -8.82115781, 30, 0L);
+                    AwarenessFence E = LocationFence.in(39.73301241,-8.82151723, 30, 0L);
+                    AwarenessFence bibli = LocationFence.in(39.73325993, -8.82081985, 30, 0L);
                     AwarenessFence local = AwarenessFence.or(A, B, C, D, E, bibli);
                     addFence("localFence", local);
 
@@ -286,7 +286,7 @@ public class TaskActivity extends AppCompatActivity {
                     // for ActivityCompat#requestPermissions for more details.
                     return;
                 }
-                AwarenessFence inLocationFence = LocationFence.in(39.733465, -8.820731, 200, 0L);
+                AwarenessFence inLocationFence = LocationFence.in(39.73325993, -8.82081985, 30, 0L);
                 addFence("localFence", inLocationFence);
 
 
@@ -303,7 +303,7 @@ public class TaskActivity extends AppCompatActivity {
                     return;
                 }
 
-                AwarenessFence inLocationFence = LocationFence.in(39.735729, -8.820847, 200, 0L);
+                AwarenessFence inLocationFence = LocationFence.in(39.73557424,-8.82109344, 30, 0L);
                 addFence("localFence", inLocationFence);
 
 

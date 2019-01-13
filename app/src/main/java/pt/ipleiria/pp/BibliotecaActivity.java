@@ -316,7 +316,7 @@ public class BibliotecaActivity extends AppCompatActivity {
         }
 
 
-        AwarenessFence bibli = LocationFence.in(39.733465, -8.820731, 200, 0L);
+        AwarenessFence bibli = LocationFence.in(39.73325993, -8.82081985, 30, 0L);
         addFence("localAbiblioteca", bibli);
 
     }

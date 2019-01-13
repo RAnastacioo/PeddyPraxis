@@ -54,6 +54,8 @@ public class SingletonPPB {
         for (Game g : games) {
             g.setTimeOver(false);
             g.resetTask();
+            g.setGameLost(false);
+            g.setGamewin(false);
         }
     }
 

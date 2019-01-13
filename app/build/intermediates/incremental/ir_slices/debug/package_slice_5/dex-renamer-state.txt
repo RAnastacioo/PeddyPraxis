@@ -1,4 +1,4 @@
-#Sun Jan 13 12:54:58 WET 2019
+#Sun Jan 13 14:29:30 WET 2019
 base.0=/home/anastacio/Desktop/PeddyPraxis/app/build/intermediates/transforms/dexMerger/debug/5
 path.0=classes.dex
 renamed.0=classes.dex
