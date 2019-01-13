@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pt.ipleiria.pp">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_icon"
+        android:label="PeddyPraxis"
+        android:supportsRtl="true"
+        android:theme="@style/SplashTheme">
+
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="barcode,face,ocr,ica" />
+        <meta-data
+            android:name="com.google.android.awareness.API_KEY"
+            android:value="AIzaSyAyYHXy8e1w1qfJggwJAW8Dr7T7EFIXjh0" />
+
+
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Main"
+            android:theme="@style/AppTheme" ></activity>
+        <activity
+            android:name=".GameActivity"
+            android:label="Game"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" ></activity>
+        <activity
+            android:name=".TaskActivity"
+            android:label="Task"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" ></activity>
+
+        <activity android:name=".OpatioActivity"
+            android:label="O Pátio"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
+            android:exported="true">
+        </activity>
+        <activity android:name=".OsEdificios"
+            android:label="Os Edifícios"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
+            android:exported="true">
+        </activity>
+        <activity android:name=".BibliotecaActivity"
+            android:label="A Biblioteca"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity android:name=".SalaAula"
+            android:label="A Sala de Aula"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity android:name=".MelhorCurso"
+            android:label="O melhor curso"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity android:name=".GameOver"
+            android:label="Game Over"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity android:name=".win"
+            android:label="Win"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity android:name=".Descompressao"
+            android:label="Descompressao"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDY-LBfms5ptfmB0apqXzZ39A0N-ckxBzw" />
+    </application>
+
+</manifest>

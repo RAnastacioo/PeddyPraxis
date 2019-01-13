@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpatioActivity">
+
+    <TextView
+        android:id="@+id/image_details"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:autoLink="web"
+        android:text="Use the floating action button to select an image."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_image" />
+
+    <ImageView
+        android:id="@+id/main_image"
+        android:layout_width="179dp"
+        android:layout_height="278dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/common_google_signin_btn_text_dark_disabled" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:src="@android:drawable/ic_menu_gallery"
+        app:backgroundTint="@color/design_default_color_primary_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edfBibli" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="dsfsf"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/edfA"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:button="@null"
+        android:checked="false"
+        android:clickable="false"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:text="Edifício A: "
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_details" />
+
+    <CheckBox
+        android:id="@+id/edfB"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:button="@null"
+        android:checked="false"
+        android:clickable="false"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:text="Edifício B: "
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edfA" />
+
+    <CheckBox
+        android:id="@+id/edfC"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:button="@null"
+        android:checked="false"
+        android:clickable="false"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:text="Edifício C: "
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toStartOf="@+id/edfE"
+        app:layout_constraintStart_toEndOf="@+id/edfA"
+        app:layout_constraintTop_toBottomOf="@+id/image_details" />
+
+    <CheckBox
+        android:id="@+id/edfD"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:button="@null"
+        android:checked="false"
+        android:clickable="false"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:text="Edifício D: "
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toStartOf="@+id/edfBibli"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/edfB"
+        app:layout_constraintTop_toBottomOf="@+id/edfC" />
+
+    <CheckBox
+        android:id="@+id/edfE"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:button="@null"
+        android:checked="false"
+        android:clickable="false"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:text="Edifício E: "
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_details" />
+
+    <CheckBox
+        android:id="@+id/edfBibli"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:checked="false"
+        android:clickable="false"
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:text=" Biblioteca: "
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edfE" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.api.grpc:proto-google-cloud-automl-v1beta1:0.41.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-automl-v1beta1/0.41.0/a975ed9a423b185e030bc1babca047119b1ed615/proto-google-cloud-automl-v1beta1-0.41.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-automl-v1beta1/0.41.0/38df986d8a0f85359ca9f1bee81353a2439483b/proto-google-cloud-automl-v1beta1-0.41.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

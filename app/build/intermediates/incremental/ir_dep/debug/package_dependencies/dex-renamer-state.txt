@@ -1,0 +1,13 @@
+#Sun Jan 13 01:47:22 WET 2019
+path.3=classes3.dex
+path.2=classes2.dex
+path.1=classes4.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.3=/home/anastacio/Desktop/PeddyPraxis/app/build/intermediates/transforms/dexMerger/debug/10
+base.2=/home/anastacio/Desktop/PeddyPraxis/app/build/intermediates/transforms/dexMerger/debug/10
+base.1=/home/anastacio/Desktop/PeddyPraxis/app/build/intermediates/transforms/dexMerger/debug/10
+base.0=/home/anastacio/Desktop/PeddyPraxis/app/build/intermediates/transforms/dexMerger/debug/10

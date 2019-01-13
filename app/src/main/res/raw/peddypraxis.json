@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "peddypraxis-224610",
+  "private_key_id": "e1c01b45acafe75f5bb4c51ffdbf732ffb7c4399",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC77dJbsa39UyDx\nEPh6Tv7APjiis0yuqrKzF/47XXjSE/brWQ7Vt067CIgQkjm5n9uqGIWLDSpjlMxg\nra6iJIs+30s7MiU8CNhmOrIVuPT6V82iFYDl44Ke8wbfXOKNlWCwOtNgifglHG0U\nEpYxrWwywQdatpPi02cZu4zDPhryw+UUW2aIenG3sDfEDsFTTgiAXS0XzF41i4MN\nWTsN+VGj130Z4PDP5MMxM2P7QT8u3Wq/nM76VfN8VNgTBiZuviqlWCt60FK1MpVS\n14rMRiHM8yUr42a6LPlmdGW0yuafVF/xmXanK4iNXfDk4lppWSrESpBsUcnqvmWj\nARkDEVxBAgMBAAECggEAF4rZeWcu1rddPxXTKu9OdqLU0X0ItDDqJglxbdpt0lNx\n8VW8yAUotcGB2iGXXaurBwn/YMYLc2ImoE3hvKo7T2sFr6q+g2DQSy47NQFwnxP0\nzMNI3IO9z0++oqiuMPJvpGQaKtPd5DhFaehSLHL/RPRtiW2p5RZ6qfyWy7ayBYtR\nT6ugJJqaxFMOvyYKMRHg5zM+MRXC7rtcQHeTJMr7o3TYfW7o5pw4Xf840sHcG8zM\nrm2cdbd9vD92fjvWCqFqxQ8Uf4SrD7noHRkppyS8linAwCRAItVrIz1AxnenLbjm\nH2bXLi35KYHbfVIiLQLKr5+cMcddja9GcwNEZEzR6QKBgQD+LBGD6kPHAMEMZPcu\nPYvx1R3ufO4Rtc3ncTANeYfLh7/Lr5G6ID6x42W0WuUXug69fNHcGcfr+uDstkpA\nZDaU2CiRO8WY4jrYoXcEFeURcuto8g7avrQb43av3a62we29pxb+3ZcKP0Kgb83M\nb4UgctftFZxdxGNlPvODdM3SuwKBgQC9R8yqi+r6UrjxThrWhvHcA5xfFfltGXTM\nse5RzSCgKewKZgZs9PYcdcp63jPnK7CKXJoXQXfoVRNLyOxojWJPkOK5CO/UUOkm\nLgA24NYQsqMtevfl4DvAHkM+nGnHDVsKDbzyPIqZIytPfDOQjzhEXXmA7vNOrofG\nIoS3Tr2TMwKBgQDFeauqGArMxJM4dAFv1bWzEGeO8VVuQRhW5yP0dCXDRhcHw8Kv\nH3pWb1yHgc9YXeAx7JaIMSeY+nRitUZ/PN0DS+ZI4G2nWK1rvhdf/zrYEbdA9EAC\nSARbXqDKBqxFpep2XSmKntNIzNmRGQyF92cxTMjilNXGLF0lPoGn8sovHQKBgCQ6\nmfIK1e8T5lJJoNlu+twh1MxeaF95f+GuLO97U8NUQtm6rYAtYu4PnbHm1ghpVGEn\nWFcbMNhHcGoRCy734NlZ4guIql75HacxJtlaL58CkjkiUFCvmsArCrPxPE3dQI+s\nEX5MGDs3gBK2syf4QczUF22WTvvAbDyAXua3K5IBAoGBANn3bHcCxG/shByxbt8Y\nN5P/vJamTyBcCGQj5aOlQtgeujCLLywIgAZlLhdx/TQGDVRAcjJm5+E7h5OqGhBy\nwJMlTrX6d8eydjuSi7wZ6Lai0ahniVGQN7QxJF72nwqCOLAbNBB3JTqC0ZCknY1M\nVpGNPV0Hi2Wtf4giOV4T54Zj\n-----END PRIVATE KEY-----\n",
+  "client_email": "automl@peddypraxis-224610.iam.gserviceaccount.com",
+  "client_id": "105807213035873702909",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/automl%40peddypraxis-224610.iam.gserviceaccount.com"
+}

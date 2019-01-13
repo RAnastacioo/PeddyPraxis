@@ -1,0 +1,740 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:99:9-107:20
+	android:grantUriPermissions
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:103:13-47
+	android:authorities
+		INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:101:13-60
+	android:exported
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:102:13-37
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:100:13-67
+manifest
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:2:1-113:12
+INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:2:1-113:12
+INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:2:1-113:12
+INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:2:1-113:12
+MERGED from [com.android.support:design:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/b43bfa5d4f1d6b2841312e5d64515878/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5f367b4ad6850382507560fd8f681bcd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bb985447fef5f59df0476c5a5e0aa618/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-ml-vision:18.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-18.0.2.aar/675941c5359b6f9b2192f5c5079d6088/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-image-label-model-17.0.2.aar/7b0af3833e04d52aad1c33c3b00ee39e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-face-model-17.0.2.aar/a67de19ce14ef9ed5db6a28380ff0988/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-model-interpreter:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-model-interpreter-16.2.4.aar/e04a4cdebb8d347f407708320c0ddcd4/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/4b000c0681623240fe5de80babfbd2c9/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-awareness:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-awareness-16.0.0.aar/1c4cfbf55c815cfcafb4a65569410c08/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/ce0c61227e52f470a97cfd662f3e591f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-17.0.2.aar/a594df85c5f12c184c00db79a0a7b9a0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/8d09e4cb5032af174f4a668b3a1a0082/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/e253ac04ca7538f5e66f6ef4c072d239/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/a792d215c0718d200f800332630e1c14/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-16.0.0.aar/e894242f3eec69c2d418595df31082b1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-ml-common:16.1.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-common-16.1.6.aar/0ddecf6b97b9e3fefa2971779a28df8f/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/34af1809d9ecd26d3a937f33543cfc31/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-16.0.0.aar/5561324e4e27b37ac1e547bbc0b2298e/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/557e0cad0f8237e668d3568454fbfd33/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-places-16.0.0.aar/d203747f1ee74728c2e98f6156f4ffe5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/6930152a9933a3b8a418a306025fd4d7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/883def196b2675adebbd2cc7a10d6b28/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/e29e1a126e47fcca709cbd6ebfd9ce3e/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/80d75e9325bed5f918c2905671df1709/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/1663a6d281b732adeb9c5e3dcf537959/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fc8a78d02cca1dcf893c4788b8228bbd/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b82780bc68228ef32d81f5940104eaa0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dc8007d91ef099354308086f3654450e/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e084b31fe7150683b0ed9a69ea31d8cc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/44a9e5706e1beb507ddda38ec4dc47c7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/6fc0c21594e19fbb5814210432114a81/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/60a7f53c0640a94935efef5ecd04233b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/c7b08f713c9edf69fd70f5d249d132c5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/9785e5b23221d89020f423b20071718f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/f0a4ed1a5b7866c70647015beda112f0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/789c14e3eceef7c759918ce73f78b9bb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/96826b7030208cfd4281a6f83175debe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.shimmer:shimmer:0.4.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/shimmer-0.4.0.aar/07ec534b67b57d868b927615ae7b52d7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8b03155ec5913be1e19660e4c6a4bf88/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/82867dc126cf4728368740f153a5e8d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/2f2dca1f62646922352e17e2e0710041/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/2e8818c820bb5827c3d4a58b79fa7d35/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/8c0cea281d35f6f0040c6c4fed4d2898/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/f37e18b214a84256c1a7e71486e0690a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/e5f1f0f76bc6ddb76f48c7644c6b47b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/c9a8a7bce3cfbbf7672b40e12bf66a47/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9e5fcb77a82035eae5668c78e7785bea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/cbb8f06df677424981a648bc664e0d7c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/47dabdcb0445b4c1ecb478f66857f2f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/93c58d94b11ee370b19fb66d6b8b913b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/65c4a434b1aef39828d3e07460d28883/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/e5c15d6fe6656a0b4a2b1c76b99546b5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/ec00c58767d83cc168bebdd2cc2f113e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d9438ec2defd6cecfe2c9efa44c970c8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2db5b3c5bea85614bffe3d74d149e10d/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d686914b1fe2a385abaf698e6892bbec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/8b4669a66da33c227d6397f2d403fa4d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/448d58562c26dcdd06c90888d6006699/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6a1e5099be883dd2816d86e017b4c0c3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/54e7f04e892331b5b0b925f44d792365/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/806f0915f88d3f958d09621745935f98/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/08738e1358363038d386d80fc3cf7fa9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/eb6c695704748b3be129b8123c51300a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c95806d3924536d95a2d2d42a5113111/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4103f998334b066b302d13b7ca96bb4e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5e19cc040bb0211120f3315accd2b060/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/exifinterface-1.0.0.aar/71a03ae0fde0069cf0b1fc7e9e4bf815/AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite:1.10.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.10.0.aar/a8c11b069f7eb701fe505a79f842e786/AndroidManifest.xml:2:1-6:12
+INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:2:1-113:12
+INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:2:1-113:12
+INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:2:1-113:12
+	package
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:3:5-29
+		INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:2:1-113:12
+		INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:2:1-113:12
+		INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/80d75e9325bed5f918c2905671df1709/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/80d75e9325bed5f918c2905671df1709/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fc8a78d02cca1dcf893c4788b8228bbd/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fc8a78d02cca1dcf893c4788b8228bbd/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:9:5-78
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.CALL_PHONE
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:10:22-66
+uses-feature#android.hardware.camera
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:12:5-60
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:12:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:13:5-70
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:13:19-67
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:15:5-94
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:15:22-91
+application
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:19:5-111:19
+MERGED from [com.android.support:design:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/b43bfa5d4f1d6b2841312e5d64515878/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/b43bfa5d4f1d6b2841312e5d64515878/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bb985447fef5f59df0476c5a5e0aa618/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bb985447fef5f59df0476c5a5e0aa618/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-image-label-model-17.0.2.aar/7b0af3833e04d52aad1c33c3b00ee39e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-image-label-model-17.0.2.aar/7b0af3833e04d52aad1c33c3b00ee39e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-face-model-17.0.2.aar/a67de19ce14ef9ed5db6a28380ff0988/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-face-model-17.0.2.aar/a67de19ce14ef9ed5db6a28380ff0988/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/4b000c0681623240fe5de80babfbd2c9/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/4b000c0681623240fe5de80babfbd2c9/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-awareness:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-awareness-16.0.0.aar/1c4cfbf55c815cfcafb4a65569410c08/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-awareness:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-awareness-16.0.0.aar/1c4cfbf55c815cfcafb4a65569410c08/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/ce0c61227e52f470a97cfd662f3e591f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/ce0c61227e52f470a97cfd662f3e591f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-17.0.2.aar/a594df85c5f12c184c00db79a0a7b9a0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-17.0.2.aar/a594df85c5f12c184c00db79a0a7b9a0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/8d09e4cb5032af174f4a668b3a1a0082/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/8d09e4cb5032af174f4a668b3a1a0082/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/a792d215c0718d200f800332630e1c14/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/a792d215c0718d200f800332630e1c14/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/34af1809d9ecd26d3a937f33543cfc31/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/34af1809d9ecd26d3a937f33543cfc31/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/557e0cad0f8237e668d3568454fbfd33/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/557e0cad0f8237e668d3568454fbfd33/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-places-16.0.0.aar/d203747f1ee74728c2e98f6156f4ffe5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-places-16.0.0.aar/d203747f1ee74728c2e98f6156f4ffe5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/6930152a9933a3b8a418a306025fd4d7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/6930152a9933a3b8a418a306025fd4d7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/883def196b2675adebbd2cc7a10d6b28/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/883def196b2675adebbd2cc7a10d6b28/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/e29e1a126e47fcca709cbd6ebfd9ce3e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/e29e1a126e47fcca709cbd6ebfd9ce3e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/80d75e9325bed5f918c2905671df1709/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/80d75e9325bed5f918c2905671df1709/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/1663a6d281b732adeb9c5e3dcf537959/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/1663a6d281b732adeb9c5e3dcf537959/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fc8a78d02cca1dcf893c4788b8228bbd/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fc8a78d02cca1dcf893c4788b8228bbd/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b82780bc68228ef32d81f5940104eaa0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b82780bc68228ef32d81f5940104eaa0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dc8007d91ef099354308086f3654450e/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dc8007d91ef099354308086f3654450e/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e084b31fe7150683b0ed9a69ea31d8cc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e084b31fe7150683b0ed9a69ea31d8cc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/44a9e5706e1beb507ddda38ec4dc47c7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/44a9e5706e1beb507ddda38ec4dc47c7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/6fc0c21594e19fbb5814210432114a81/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/6fc0c21594e19fbb5814210432114a81/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/60a7f53c0640a94935efef5ecd04233b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/60a7f53c0640a94935efef5ecd04233b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/c7b08f713c9edf69fd70f5d249d132c5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/c7b08f713c9edf69fd70f5d249d132c5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/9785e5b23221d89020f423b20071718f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/9785e5b23221d89020f423b20071718f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/f0a4ed1a5b7866c70647015beda112f0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/f0a4ed1a5b7866c70647015beda112f0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d9438ec2defd6cecfe2c9efa44c970c8/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d9438ec2defd6cecfe2c9efa44c970c8/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2db5b3c5bea85614bffe3d74d149e10d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2db5b3c5bea85614bffe3d74d149e10d/AndroidManifest.xml:22:5-23:19
+MERGED from [org.tensorflow:tensorflow-lite:1.10.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.10.0.aar/a8c11b069f7eb701fe505a79f842e786/AndroidManifest.xml:4:5-5:19
+MERGED from [org.tensorflow:tensorflow-lite:1.10.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.10.0.aar/a8c11b069f7eb701fe505a79f842e786/AndroidManifest.xml:4:5-5:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d9438ec2defd6cecfe2c9efa44c970c8/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:22:9-36
+	android:icon
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:21:9-48
+	android:allowBackup
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:24:9-43
+meta-data#com.google.firebase.ml.vision.DEPENDENCIES
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:26:9-28:52
+	android:value
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:27:13-70
+meta-data#com.google.android.awareness.API_KEY
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:29:9-31:71
+	android:value
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:31:13-68
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:30:13-64
+activity#pt.ipleiria.pp.SplashScreenActivity
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:34:9-40:20
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:34:19-55
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:38:27-74
+activity#pt.ipleiria.pp.MainActivity
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:41:9-44:57
+	android:label
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:43:13-33
+	android:theme
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:44:13-44
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:42:13-41
+activity#pt.ipleiria.pp.GameActivity
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:45:9-49:67
+	android:label
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:47:13-33
+	android:windowSoftInputMode
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:49:13-54
+	android:theme
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:46:13-41
+activity#pt.ipleiria.pp.TaskActivity
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:50:9-54:67
+	android:label
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:52:13-33
+	android:windowSoftInputMode
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:54:13-54
+	android:theme
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:53:13-44
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:51:13-41
+activity#pt.ipleiria.pp.OpatioActivity
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:56:9-61:20
+	android:screenOrientation
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:59:13-49
+	android:label
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:57:13-36
+	android:exported
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:60:13-36
+	android:theme
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:58:13-44
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:56:19-49
+activity#pt.ipleiria.pp.OsEdificios
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:62:9-67:20
+	android:screenOrientation
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:65:13-49
+	android:label
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:63:13-41
+	android:exported
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:66:13-36
+	android:theme
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:64:13-44
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:62:19-46
+activity#pt.ipleiria.pp.BibliotecaActivity
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:68:9-72:20
+	android:screenOrientation
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:70:13-49
+	android:label
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:69:13-41
+	android:theme
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:71:13-44
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:68:19-53
+activity#pt.ipleiria.pp.SalaAula
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:73:9-77:20
+	android:screenOrientation
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:75:13-49
+	android:label
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:74:13-43
+	android:theme
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:76:13-44
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:73:19-43
+activity#pt.ipleiria.pp.MelhorCurso
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:78:9-82:20
+	android:screenOrientation
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:80:13-49
+	android:label
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:79:13-43
+	android:theme
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:81:13-44
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:78:19-46
+activity#pt.ipleiria.pp.GameOver
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:83:9-87:20
+	android:screenOrientation
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:85:13-49
+	android:label
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:84:13-38
+	android:theme
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:86:13-44
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:83:19-43
+activity#pt.ipleiria.pp.win
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:88:9-92:20
+	android:screenOrientation
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:90:13-49
+	android:label
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:89:13-32
+	android:theme
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:88:19-38
+activity#pt.ipleiria.pp.Descompressao
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:93:9-97:20
+	android:screenOrientation
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:95:13-49
+	android:label
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:94:13-42
+	android:theme
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:96:13-44
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:93:19-48
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:108:9-110:71
+	android:value
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:110:13-68
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:109:13-58
+uses-sdk
+INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/b43bfa5d4f1d6b2841312e5d64515878/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/b43bfa5d4f1d6b2841312e5d64515878/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5f367b4ad6850382507560fd8f681bcd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5f367b4ad6850382507560fd8f681bcd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bb985447fef5f59df0476c5a5e0aa618/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bb985447fef5f59df0476c5a5e0aa618/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:18.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-18.0.2.aar/675941c5359b6f9b2192f5c5079d6088/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:18.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-18.0.2.aar/675941c5359b6f9b2192f5c5079d6088/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-image-label-model-17.0.2.aar/7b0af3833e04d52aad1c33c3b00ee39e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-image-label-model-17.0.2.aar/7b0af3833e04d52aad1c33c3b00ee39e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-face-model-17.0.2.aar/a67de19ce14ef9ed5db6a28380ff0988/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-face-model-17.0.2.aar/a67de19ce14ef9ed5db6a28380ff0988/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-model-interpreter:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-model-interpreter-16.2.4.aar/e04a4cdebb8d347f407708320c0ddcd4/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-model-interpreter:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-model-interpreter-16.2.4.aar/e04a4cdebb8d347f407708320c0ddcd4/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/4b000c0681623240fe5de80babfbd2c9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/4b000c0681623240fe5de80babfbd2c9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-awareness:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-awareness-16.0.0.aar/1c4cfbf55c815cfcafb4a65569410c08/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-awareness:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-awareness-16.0.0.aar/1c4cfbf55c815cfcafb4a65569410c08/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/ce0c61227e52f470a97cfd662f3e591f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/ce0c61227e52f470a97cfd662f3e591f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-17.0.2.aar/a594df85c5f12c184c00db79a0a7b9a0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-17.0.2.aar/a594df85c5f12c184c00db79a0a7b9a0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/8d09e4cb5032af174f4a668b3a1a0082/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/8d09e4cb5032af174f4a668b3a1a0082/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/e253ac04ca7538f5e66f6ef4c072d239/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/e253ac04ca7538f5e66f6ef4c072d239/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/a792d215c0718d200f800332630e1c14/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/a792d215c0718d200f800332630e1c14/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-16.0.0.aar/e894242f3eec69c2d418595df31082b1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-16.0.0.aar/e894242f3eec69c2d418595df31082b1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:16.1.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-common-16.1.6.aar/0ddecf6b97b9e3fefa2971779a28df8f/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:16.1.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-ml-common-16.1.6.aar/0ddecf6b97b9e3fefa2971779a28df8f/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/34af1809d9ecd26d3a937f33543cfc31/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/34af1809d9ecd26d3a937f33543cfc31/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-16.0.0.aar/5561324e4e27b37ac1e547bbc0b2298e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-16.0.0.aar/5561324e4e27b37ac1e547bbc0b2298e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/557e0cad0f8237e668d3568454fbfd33/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/557e0cad0f8237e668d3568454fbfd33/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-places-16.0.0.aar/d203747f1ee74728c2e98f6156f4ffe5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-places-16.0.0.aar/d203747f1ee74728c2e98f6156f4ffe5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/6930152a9933a3b8a418a306025fd4d7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/6930152a9933a3b8a418a306025fd4d7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/883def196b2675adebbd2cc7a10d6b28/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/883def196b2675adebbd2cc7a10d6b28/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/e29e1a126e47fcca709cbd6ebfd9ce3e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/e29e1a126e47fcca709cbd6ebfd9ce3e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/80d75e9325bed5f918c2905671df1709/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/80d75e9325bed5f918c2905671df1709/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/1663a6d281b732adeb9c5e3dcf537959/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/1663a6d281b732adeb9c5e3dcf537959/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fc8a78d02cca1dcf893c4788b8228bbd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fc8a78d02cca1dcf893c4788b8228bbd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b82780bc68228ef32d81f5940104eaa0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b82780bc68228ef32d81f5940104eaa0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dc8007d91ef099354308086f3654450e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dc8007d91ef099354308086f3654450e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e084b31fe7150683b0ed9a69ea31d8cc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e084b31fe7150683b0ed9a69ea31d8cc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/44a9e5706e1beb507ddda38ec4dc47c7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/44a9e5706e1beb507ddda38ec4dc47c7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/6fc0c21594e19fbb5814210432114a81/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/6fc0c21594e19fbb5814210432114a81/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/60a7f53c0640a94935efef5ecd04233b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/60a7f53c0640a94935efef5ecd04233b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/c7b08f713c9edf69fd70f5d249d132c5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/c7b08f713c9edf69fd70f5d249d132c5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/9785e5b23221d89020f423b20071718f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/9785e5b23221d89020f423b20071718f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/f0a4ed1a5b7866c70647015beda112f0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/f0a4ed1a5b7866c70647015beda112f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/789c14e3eceef7c759918ce73f78b9bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/789c14e3eceef7c759918ce73f78b9bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/96826b7030208cfd4281a6f83175debe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/96826b7030208cfd4281a6f83175debe/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.shimmer:shimmer:0.4.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/shimmer-0.4.0.aar/07ec534b67b57d868b927615ae7b52d7/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.shimmer:shimmer:0.4.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/shimmer-0.4.0.aar/07ec534b67b57d868b927615ae7b52d7/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8b03155ec5913be1e19660e4c6a4bf88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8b03155ec5913be1e19660e4c6a4bf88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/82867dc126cf4728368740f153a5e8d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/82867dc126cf4728368740f153a5e8d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/2f2dca1f62646922352e17e2e0710041/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/2f2dca1f62646922352e17e2e0710041/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/2e8818c820bb5827c3d4a58b79fa7d35/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/2e8818c820bb5827c3d4a58b79fa7d35/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/8c0cea281d35f6f0040c6c4fed4d2898/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/8c0cea281d35f6f0040c6c4fed4d2898/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/f37e18b214a84256c1a7e71486e0690a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/f37e18b214a84256c1a7e71486e0690a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/e5f1f0f76bc6ddb76f48c7644c6b47b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/e5f1f0f76bc6ddb76f48c7644c6b47b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/c9a8a7bce3cfbbf7672b40e12bf66a47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/c9a8a7bce3cfbbf7672b40e12bf66a47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9e5fcb77a82035eae5668c78e7785bea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9e5fcb77a82035eae5668c78e7785bea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/cbb8f06df677424981a648bc664e0d7c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/cbb8f06df677424981a648bc664e0d7c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/47dabdcb0445b4c1ecb478f66857f2f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/47dabdcb0445b4c1ecb478f66857f2f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/93c58d94b11ee370b19fb66d6b8b913b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/93c58d94b11ee370b19fb66d6b8b913b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/65c4a434b1aef39828d3e07460d28883/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/65c4a434b1aef39828d3e07460d28883/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/e5c15d6fe6656a0b4a2b1c76b99546b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/e5c15d6fe6656a0b4a2b1c76b99546b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/ec00c58767d83cc168bebdd2cc2f113e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/ec00c58767d83cc168bebdd2cc2f113e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d9438ec2defd6cecfe2c9efa44c970c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d9438ec2defd6cecfe2c9efa44c970c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2db5b3c5bea85614bffe3d74d149e10d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2db5b3c5bea85614bffe3d74d149e10d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d686914b1fe2a385abaf698e6892bbec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d686914b1fe2a385abaf698e6892bbec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/8b4669a66da33c227d6397f2d403fa4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/8b4669a66da33c227d6397f2d403fa4d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/448d58562c26dcdd06c90888d6006699/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/448d58562c26dcdd06c90888d6006699/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6a1e5099be883dd2816d86e017b4c0c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6a1e5099be883dd2816d86e017b4c0c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/54e7f04e892331b5b0b925f44d792365/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/54e7f04e892331b5b0b925f44d792365/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/806f0915f88d3f958d09621745935f98/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/806f0915f88d3f958d09621745935f98/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/08738e1358363038d386d80fc3cf7fa9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/08738e1358363038d386d80fc3cf7fa9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/eb6c695704748b3be129b8123c51300a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/eb6c695704748b3be129b8123c51300a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c95806d3924536d95a2d2d42a5113111/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c95806d3924536d95a2d2d42a5113111/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4103f998334b066b302d13b7ca96bb4e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4103f998334b066b302d13b7ca96bb4e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5e19cc040bb0211120f3315accd2b060/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5e19cc040bb0211120f3315accd2b060/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/exifinterface-1.0.0.aar/71a03ae0fde0069cf0b1fc7e9e4bf815/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/exifinterface-1.0.0.aar/71a03ae0fde0069cf0b1fc7e9e4bf815/AndroidManifest.xml:20:5-44
+INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:104:13-106:57
+	android:resource
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:106:17-55
+	android:name
+		ADDED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:105:17-67
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/a2605408b78798b74505a36f256ac6ae/AndroidManifest.xml:37:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/4b000c0681623240fe5de80babfbd2c9/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/4b000c0681623240fe5de80babfbd2c9/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/4b000c0681623240fe5de80babfbd2c9/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/4b000c0681623240fe5de80babfbd2c9/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/4b000c0681623240fe5de80babfbd2c9/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/4b000c0681623240fe5de80babfbd2c9/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/4b000c0681623240fe5de80babfbd2c9/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/4b000c0681623240fe5de80babfbd2c9/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/4b000c0681623240fe5de80babfbd2c9/AndroidManifest.xml:34:13-89
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/80d75e9325bed5f918c2905671df1709/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/80d75e9325bed5f918c2905671df1709/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fc8a78d02cca1dcf893c4788b8228bbd/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fc8a78d02cca1dcf893c4788b8228bbd/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/80d75e9325bed5f918c2905671df1709/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/80d75e9325bed5f918c2905671df1709/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/99a06d522339fd003da045d45e3c2b48/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/80d75e9325bed5f918c2905671df1709/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/80d75e9325bed5f918c2905671df1709/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/80d75e9325bed5f918c2905671df1709/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/80d75e9325bed5f918c2905671df1709/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/f50046e94497b65a64c26cf2ed07798f/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/96643416142aadd0bc760062ee4da30b/AndroidManifest.xml:54:25-77
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fc8a78d02cca1dcf893c4788b8228bbd/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fc8a78d02cca1dcf893c4788b8228bbd/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/fc8a78d02cca1dcf893c4788b8228bbd/AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b82780bc68228ef32d81f5940104eaa0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b82780bc68228ef32d81f5940104eaa0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b82780bc68228ef32d81f5940104eaa0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b82780bc68228ef32d81f5940104eaa0/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dc8007d91ef099354308086f3654450e/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dc8007d91ef099354308086f3654450e/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dc8007d91ef099354308086f3654450e/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dc8007d91ef099354308086f3654450e/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/anastacio/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dc8007d91ef099354308086f3654450e/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/f0a4ed1a5b7866c70647015beda112f0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/f0a4ed1a5b7866c70647015beda112f0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/anastacio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/f0a4ed1a5b7866c70647015beda112f0/AndroidManifest.xml:24:13-58
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/anastacio/Desktop/PeddyPraxis/app/src/main/AndroidManifest.xml:2:1-113:12 reason: org.tensorflow.lite has a targetSdkVersion < 4
