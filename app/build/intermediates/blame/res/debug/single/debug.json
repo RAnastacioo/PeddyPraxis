@@ -756,12 +756,12 @@
         "source": "/home/anastacio/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/b43bfa5d4f1d6b2841312e5d64515878/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
     },
     {
-        "merged": "/home/anastacio/Desktop/PeddyPraxis/app/build/intermediates/res/merged/debug/interpolator-v21_mtrl_fast_out_linear_in.xml.flat",
-        "source": "/home/anastacio/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/b43bfa5d4f1d6b2841312e5d64515878/res/interpolator-v21/mtrl_fast_out_linear_in.xml"
-    },
-    {
         "merged": "/home/anastacio/Desktop/PeddyPraxis/app/build/intermediates/res/merged/debug/drawable_ic_record_voice.xml.flat",
         "source": "/home/anastacio/Desktop/PeddyPraxis/app/src/main/res/drawable/ic_record_voice.xml"
+    },
+    {
+        "merged": "/home/anastacio/Desktop/PeddyPraxis/app/build/intermediates/res/merged/debug/interpolator-v21_mtrl_fast_out_linear_in.xml.flat",
+        "source": "/home/anastacio/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/b43bfa5d4f1d6b2841312e5d64515878/res/interpolator-v21/mtrl_fast_out_linear_in.xml"
     },
     {
         "merged": "/home/anastacio/Desktop/PeddyPraxis/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",

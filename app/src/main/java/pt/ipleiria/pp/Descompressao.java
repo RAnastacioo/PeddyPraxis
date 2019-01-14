@@ -70,6 +70,8 @@ import java.util.concurrent.TimeUnit;
 
 import pt.ipleiria.pp.MainActivity;
 import pt.ipleiria.pp.R;
+import pt.ipleiria.pp.model.SingletonPPB;
+import pt.ipleiria.pp.model.Task;
 
 public class Descompressao extends AppCompatActivity implements SensorEventListener {
 
@@ -105,6 +107,7 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
     private boolean checkPrintPlaces;
     private boolean goodWeather;
 
+    private Task task;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -126,6 +129,10 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
 
         fenceReceiver = new MyFenceReceiver();
         registerReceiver(fenceReceiver, new IntentFilter(FENCE_RECEIVER_ACTION));
+
+        Intent i = getIntent();
+        task = (Task) i.getSerializableExtra("task");
+        task = SingletonPPB.getInstance().containsIDTask(task.getId());
 
     }
 
@@ -210,22 +217,15 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
                 progressBar.setProgress(progress);
                 // finish activity
                 Snackbar.make(findViewById(android.R.id.content), "finish", Snackbar.LENGTH_LONG).show();
-                AlertDialog.Builder builder;
-                builder = new AlertDialog.Builder(Descompressao.this, android.R.style.Theme_Material_Dialog_Alert);
-                builder.setTitle("Task completed!")
-                        .setMessage("Task completed with sucess!" +
-                                "\nGo to the next!!")
-                        .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-
-
-                            }
-                        })
-                        .setIcon(android.R.drawable.ic_dialog_info)
-                        .show().setCanceledOnTouchOutside(false);
                 String title = "\tDescompressao: time out!";
                 String text = "\tTarefa completa com sucesso!";
                 notifyItem(title, text);
+                task.setTaskComplete(true);
+                Intent intent = new Intent(Descompressao.this, GameActivity.class);
+                intent.putExtra("FinishTask",task.getIdGame());
+                startActivity(intent);
+                finish();
+
             }
         }.start();
 

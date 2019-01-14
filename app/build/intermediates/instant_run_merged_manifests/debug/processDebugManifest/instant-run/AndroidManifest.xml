@@ -47,6 +47,9 @@
         <meta-data
             android:name="com.google.android.awareness.API_KEY"
             android:value="AIzaSyAyYHXy8e1w1qfJggwJAW8Dr7T7EFIXjh0" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAyYHXy8e1w1qfJggwJAW8Dr7T7EFIXjh0" />
 
         <activity android:name="pt.ipleiria.pp.SplashScreenActivity" >
             <intent-filter>
@@ -129,10 +132,6 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
         </provider>
-
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDY-LBfms5ptfmB0apqXzZ39A0N-ckxBzw" />
 
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"

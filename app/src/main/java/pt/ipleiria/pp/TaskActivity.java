@@ -500,6 +500,7 @@ public class TaskActivity extends AppCompatActivity {
                                             public void onClick(DialogInterface dialog, int which) {
 
                                                 Intent intent = new Intent(TaskActivity.this, Descompressao.class);
+                                                intent.putExtra("task",task);
                                                 startActivity(intent);
                                                 finish();
                                             }
@@ -517,14 +518,14 @@ public class TaskActivity extends AppCompatActivity {
                         case FenceState.FALSE:
                             fenceInfo = "FALSE | location";
                             removeFences("localFence");
-                            notifyItem();
+                           notifyItem();
                             break;
                     }
                     break;
 
                 default:
                     fenceInfo = "Error: unknown fence: " + fenceState.getFenceKey();
-                    notifyItem();
+                    //notifyItem();
                     removeFences("localFence");
                     break;
             }

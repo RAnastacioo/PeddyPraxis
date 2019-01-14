@@ -2,6 +2,7 @@ package pt.ipleiria.pp;
 
 
 
+import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 
@@ -19,6 +20,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.google.android.gms.awareness.Awareness;
@@ -142,6 +144,7 @@ public class SalaAula extends AppCompatActivity {
         });
 
     }
+
 
     public void dsfsf(View view) {
         queryFences();

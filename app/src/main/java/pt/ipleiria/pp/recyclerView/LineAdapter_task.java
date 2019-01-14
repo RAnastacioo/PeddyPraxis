@@ -6,6 +6,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -44,14 +45,21 @@ public class LineAdapter_task extends RecyclerView.Adapter<LineHolder_task> {
             lineHolder_taks.checkBox.setChecked(mTaks.get(i).isTaskComplete());
             lineHolder_taks.checkBox.setVisibility(View.VISIBLE);
         }
+
         lineHolder_taks.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(v.getContext(), TaskActivity.class);
-                intent.putExtra(ID_VIEW_TASK, mTaks.get(position).getId());
-                intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-                v.getContext().startActivity(intent);
+                if (!mTaks.get(position).isTaskComplete()){
+
+                    Intent intent = new Intent(v.getContext(), TaskActivity.class);
+                    intent.putExtra(ID_VIEW_TASK, mTaks.get(position).getId());
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+                    v.getContext().startActivity(intent);
+                }else {
+                    Toast.makeText(v.getContext(), "A Tarefa ja foi concluida!", Toast.LENGTH_LONG).show();
+                }
+
 
 
             }
