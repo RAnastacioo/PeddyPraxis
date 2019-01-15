@@ -24,7 +24,7 @@ public class SingletonPPB {
 
     private SingletonPPB() {
 
-        Game game = new Game("Benvindo ao IPL", "PeddyPraxis ", "Anastácio", 1);
+        Game game = new Game("Benvindo ao IPL", "PeddyPraxis ", "Anastácio",10);
         games.add(game);
         Task task1 = new Task("O pátio", "tarefa1", 5,game.getId());
         Task task2 = new Task("Os Edifícios", "tarefa2",5,game.getId());
@@ -56,6 +56,7 @@ public class SingletonPPB {
             g.resetTask();
             g.setGameLost(false);
             g.setGamewin(false);
+            g.setGameInProgress(false);
         }
     }
 

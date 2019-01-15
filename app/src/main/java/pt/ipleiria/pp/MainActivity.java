@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
             fileOutputStream.close();
         } catch (IOException e) {
             e.printStackTrace();
-            Toast.makeText(MainActivity.this, "Error_write_Game_to_internal", Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this, getString(R.string.error_write_game_to_internal), Toast.LENGTH_LONG).show();
         }
     }
 

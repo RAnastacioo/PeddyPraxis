@@ -41,6 +41,9 @@ public class MelhorCurso extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.melhorcurso);
 
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher_icon);
+
         button = (Button) this.findViewById(R.id.button);
 
 
@@ -60,13 +63,13 @@ public class MelhorCurso extends AppCompatActivity {
                     startActivityForResult(intent,200);
                 }catch (ActivityNotFoundException a){
 
-                    Snackbar.make(findViewById(android.R.id.content), "Intent problem!", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(findViewById(android.R.id.content), R.string.intent_problem, Snackbar.LENGTH_LONG).show();
 
                 }
             }
         });
 
-        Snackbar.make(findViewById(android.R.id.content), "Press the button to answer the question!", Snackbar.LENGTH_LONG).show();
+        Snackbar.make(findViewById(android.R.id.content), R.string.press_button_to_answer, Snackbar.LENGTH_LONG).show();
     }
 
     @Override
@@ -88,7 +91,7 @@ public class MelhorCurso extends AppCompatActivity {
                     finish();
 
                 }else{
-                    Snackbar.make(findViewById(android.R.id.content), "Try again!", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(findViewById(android.R.id.content), R.string.try_again, Snackbar.LENGTH_LONG).show();
                 }
             }
         }

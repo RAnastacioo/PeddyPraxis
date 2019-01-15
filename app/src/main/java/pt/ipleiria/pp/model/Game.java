@@ -18,7 +18,8 @@ public class Game implements Serializable {
     private int durationGame;
     private ArrayList<Task> tasks;
     private boolean isSelected = false;
-    private boolean timeOver,gamewin,gameLost = false;
+    private boolean timeOver,gamewin,gameLost, gameInProgress = false;
+
 
 
     public Game(String title, String description, String Author, int durationGame) {
@@ -29,6 +30,14 @@ public class Game implements Serializable {
         this.durationGame = durationGame;
         this.lastUpdate = getDateString();
         this.tasks = new ArrayList<>();
+    }
+
+    public boolean isGameInProgress() {
+        return gameInProgress;
+    }
+
+    public void setGameInProgress(boolean gameInProgress) {
+        this.gameInProgress = gameInProgress;
     }
 
     public boolean isGamewin() {

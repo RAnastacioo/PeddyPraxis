@@ -83,7 +83,7 @@ public final class OpatioActivity extends AppCompatActivity
     public static boolean blinkEye,smilinG =false;
     public static boolean  walking,localA = true;
 
-    private static final int min = 5;
+    private static final int min = 1;
 
     private CameraSource cameraSource = null;
     private CameraSourcePreview preview;
@@ -104,6 +104,9 @@ public final class OpatioActivity extends AppCompatActivity
         Log.d(TAG, "onCreate");
 
         setContentView(R.layout.opatio_activity_live);
+
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher_icon);
 
         Intent intent = new Intent(FENCE_RECEIVER_ACTION);
         myPendingIntentOpatio = PendingIntent.getBroadcast(this, 0, intent, 0);
@@ -183,7 +186,7 @@ public final class OpatioActivity extends AppCompatActivity
 
                     if (blinkEye & smilinG & walking & localA) {
 
-                        Snackbar.make(findViewById(android.R.id.content), " god job " + blinkEye, Snackbar.LENGTH_SHORT).show();
+                        Snackbar.make(findViewById(android.R.id.content), getString(R.string.good_job) + blinkEye, Snackbar.LENGTH_SHORT).show();
 
                         blinkEye = false;
                         smilinG = false;
@@ -191,16 +194,16 @@ public final class OpatioActivity extends AppCompatActivity
                     } else {
 
                         if(!blinkEye) {
-                            Snackbar.make(findViewById(android.R.id.content), "É necessario piscar o olho!", Snackbar.LENGTH_LONG).show();
+                            Snackbar.make(findViewById(android.R.id.content), R.string.necessary_blink_eye, Snackbar.LENGTH_LONG).show();
                         }
                         if(!smilinG) {
-                           Snackbar.make(findViewById(android.R.id.content), "É necessario rir!", Snackbar.LENGTH_LONG).show();
+                           Snackbar.make(findViewById(android.R.id.content), R.string.necessary_to_laugh, Snackbar.LENGTH_LONG).show();
                         }
                         if(!walking) {
-                            Snackbar.make(findViewById(android.R.id.content), "É necessario andar", Snackbar.LENGTH_LONG).show();
+                            Snackbar.make(findViewById(android.R.id.content), R.string.necessary_walk, Snackbar.LENGTH_LONG).show();
                         }
                         if(!localA) {
-                            Snackbar.make(findViewById(android.R.id.content), "É necessario estar no pátio do A", Snackbar.LENGTH_LONG).show();
+                            Snackbar.make(findViewById(android.R.id.content), R.string.necessary_courtyard_of_A, Snackbar.LENGTH_LONG).show();
                         }
 
                         smilinG = false;
@@ -221,7 +224,7 @@ public final class OpatioActivity extends AppCompatActivity
                 progress = 100;
                 gameTimer.setProgress(progress);
                 // finish activity
-                Snackbar.make(findViewById(android.R.id.content), "Finish!", Snackbar.LENGTH_SHORT).show();
+                Snackbar.make(findViewById(android.R.id.content), getString(R.string.finish), Snackbar.LENGTH_SHORT).show();
                 removeFences("walkFence");
                 removeFences("localFenceA");
 
@@ -240,13 +243,13 @@ public final class OpatioActivity extends AppCompatActivity
             @Override
             public void onTick(long millisUntilFinished) {
                 long millis = millisUntilFinished;
-                String hms = String.format("Time: %02d:%02d", TimeUnit.MILLISECONDS.toMinutes(millis) - TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS.toHours(millis)), TimeUnit.MILLISECONDS.toSeconds(millis) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(millis)));
+                String hms = String.format(getString(R.string.time)+" %02d:%02d", TimeUnit.MILLISECONDS.toMinutes(millis) - TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS.toHours(millis)), TimeUnit.MILLISECONDS.toSeconds(millis) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(millis)));
                 progressbartime.setText(hms);
             }
 
             @Override
             public void onFinish() {
-                progressbartime.setText("Time: 00:00");
+                progressbartime.setText(getString(R.string.time)+getString(R.string.finish));
             }
         }.start();
     }
@@ -430,10 +433,6 @@ public final class OpatioActivity extends AppCompatActivity
         return false;
     }
 
-    public void dsfsf(View view) {
-        queryFences();
-
-    }
 
     protected void removeFences(String text) {
 

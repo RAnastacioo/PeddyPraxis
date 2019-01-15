@@ -49,12 +49,12 @@ public class SplashScreenActivity extends AppCompatActivity {
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
                             Toast.makeText(SplashScreenActivity.this,
-                                    "Could not read game from internal storage (no Game yet?).",
+                                    getString(R.string.could_not_read_game_from_internal),
                                     Toast.LENGTH_LONG).show();
                         } catch (IOException | ClassNotFoundException e) {
                             e.printStackTrace();
                             Toast.makeText(SplashScreenActivity.this,
-                                    "Error reading Game from internal storage.",
+                                    getString(R.string.error_reading_game_from_internal),
                                     Toast.LENGTH_LONG).show();
                         }
                         sleep(500);

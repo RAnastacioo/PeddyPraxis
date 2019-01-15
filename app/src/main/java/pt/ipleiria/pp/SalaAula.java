@@ -60,6 +60,8 @@ public class SalaAula extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sala_aula);
 
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher_icon);
 
         Intent i = getIntent();
         task = (Task) i.getSerializableExtra("task");
@@ -129,7 +131,7 @@ public class SalaAula extends AppCompatActivity {
 
                 if(labelsStr.toString().toUpperCase().contains("CLASSROOM")){
 
-                    Snackbar.make(findViewById(android.R.id.content), "Finish!", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(findViewById(android.R.id.content), getString(R.string.finish), Snackbar.LENGTH_LONG).show();
 
                     task.setTaskComplete(true);
                     Intent intent = new Intent(SalaAula.this, GameActivity.class);
@@ -138,7 +140,7 @@ public class SalaAula extends AppCompatActivity {
                     finish();
 
                 } else {
-                    Snackbar.make(findViewById(android.R.id.content), "Não foi detetada a resposta, tenta novamente! ", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(findViewById(android.R.id.content), getString(R.string.answer_not_detected_try_again), Snackbar.LENGTH_LONG).show();
                 }
             }
         });
@@ -146,9 +148,6 @@ public class SalaAula extends AppCompatActivity {
     }
 
 
-    public void dsfsf(View view) {
-        queryFences();
-    }
 
     protected void queryFences() {
 
@@ -186,8 +185,8 @@ public class SalaAula extends AppCompatActivity {
         if (imageBitmap == null) {
             //dispatchTakePictureIntent();
             AlertDialog.Builder builder = new AlertDialog.Builder(SalaAula.this, android.R.style.Theme_Material_Dialog_Alert);
-            builder.setMessage("Choose a picture")
-                    .setPositiveButton("Gallery", new DialogInterface.OnClickListener() {
+            builder.setMessage(getString(R.string.choose_picture))
+                    .setPositiveButton(getString(R.string.gallery), new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             Intent pickPhoto = new Intent(Intent.ACTION_PICK,
@@ -195,7 +194,7 @@ public class SalaAula extends AppCompatActivity {
                             startActivityForResult(pickPhoto, 1);//one can be replaced with any action code
                         }
                     })
-                    .setNegativeButton("Camera", new DialogInterface.OnClickListener() {
+                    .setNegativeButton(getString(R.string.camera), new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             Intent takePicture = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);

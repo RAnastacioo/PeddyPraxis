@@ -25,13 +25,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <Button
-                    android:id="@+id/button"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:onClick="onclick"
-                    android:text="Button" />
-
                 <include
                     android:id="@+id/include_game"
                     layout="@layout/content_gameinfo"

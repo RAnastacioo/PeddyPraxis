@@ -105,11 +105,11 @@ public class TaskActivity extends AppCompatActivity {
             String idgame = i.getStringExtra(ID_VIEW_TASK);
             task = PPB.containsIDTask(idgame);
 
-            etTitle.setHint("Title: " + task.getTitle());
+            etTitle.setHint(getString(R.string.title) + task.getTitle());
             etTitle.setEnabled(false);
-            etDescription.setHint("Description: " + task.getDescription());
+            etDescription.setHint(getString(R.string.description) + task.getDescription());
             etDescription.setEnabled(false);
-            etValue.setHint("Value: " + task.getValue());
+            etValue.setHint(getString(R.string.value) + task.getValue());
             etValue.setEnabled(false);
             etId.setText("" + task.getId());
             etOrder.setText("" + task.getOrder());
@@ -272,7 +272,7 @@ public class TaskActivity extends AppCompatActivity {
                     addFence("localFence", local);
 
                 } else {
-                    Snackbar.make(findViewById(android.R.id.content), "É necessário Android 9 (API level 28)! ", Snackbar.LENGTH_LONG).setActionTextColor(Color.RED).show();
+                    Snackbar.make(findViewById(android.R.id.content), R.string.required_api_28, Snackbar.LENGTH_LONG).setActionTextColor(Color.RED).show();
                 }
 
             } else if (task.getTitle().equals("A Biblioteca")) {
@@ -310,8 +310,8 @@ public class TaskActivity extends AppCompatActivity {
             } else if (task.getTitle().equals("Sala de Aula")) {
                 AlertDialog.Builder builder;
                 builder = new AlertDialog.Builder(TaskActivity.this, android.R.style.Theme_Material_Dialog_Alert);
-                builder.setTitle("Rules")
-                        .setMessage("CRIAR PREAMBULO DESTA ATIVIDADE")
+                builder.setTitle(R.string.rules)
+                        .setMessage(R.string.preambulo_classroom)
                         .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
 
@@ -330,11 +330,10 @@ public class TaskActivity extends AppCompatActivity {
                         .show().setCanceledOnTouchOutside(false);
 
             } else if (task.getTitle().equals("Melhor Curso")) {
-
                 AlertDialog.Builder builder;
                 builder = new AlertDialog.Builder(TaskActivity.this, android.R.style.Theme_Material_Dialog_Alert);
-                builder.setTitle("Rules")
-                        .setMessage("CRIAR PREAMBULO DESTA ATIVIDADE")
+                builder.setTitle(getString(R.string.rules))
+                        .setMessage(R.string.preambulo_melhor_curso_1)
                         .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
 
@@ -355,8 +354,8 @@ public class TaskActivity extends AppCompatActivity {
             } else {
                 AlertDialog.Builder builder;
                 builder = new AlertDialog.Builder(TaskActivity.this, android.R.style.Theme_Material_Dialog_Alert);
-                builder.setTitle("Information!")
-                        .setMessage("Game under construction....")
+                builder.setTitle(R.string.information)
+                        .setMessage(R.string.game_under_construction)
                         .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 // continue with delete
@@ -366,7 +365,7 @@ public class TaskActivity extends AppCompatActivity {
                         .show().setCanceledOnTouchOutside(false);
             }
         } else {
-            Snackbar.make(findViewById(android.R.id.content), "É obrigatorio aceitar permissões", Snackbar.LENGTH_LONG).setActionTextColor(Color.RED).show();
+            Snackbar.make(findViewById(android.R.id.content), R.string.premission_required, Snackbar.LENGTH_LONG).setActionTextColor(Color.RED).show();
 
         }
     }
@@ -404,9 +403,6 @@ public class TaskActivity extends AppCompatActivity {
                 });
     }
 
-    public void onclick(View view) {
-        queryFences();
-    }
 
     private class FenceReceiver extends BroadcastReceiver {
         @Override
@@ -425,8 +421,8 @@ public class TaskActivity extends AppCompatActivity {
                                 removeFences("localFence");
                                 AlertDialog.Builder builder;
                                 builder = new AlertDialog.Builder(TaskActivity.this, android.R.style.Theme_Material_Dialog_Alert);
-                                builder.setTitle("Rules")
-                                        .setMessage("O calorio tem de estar no pátio do Edifício A!\n" + "É necessatio andar as voltas no pátio durante 5 minutos a piscar um olho e a sorrir apontando a camera frontal para si!")
+                                builder.setTitle(getString(R.string.rules))
+                                        .setMessage(getString(R.string.preambulo_oPatio_1)+"\n" + getString(R.string.preambulo_oPatio_2))
                                         .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                                             public void onClick(DialogInterface dialog, int which) {
 
@@ -448,8 +444,8 @@ public class TaskActivity extends AppCompatActivity {
                                 removeFences("localFence");
                                 AlertDialog.Builder builder;
                                 builder = new AlertDialog.Builder(TaskActivity.this, android.R.style.Theme_Material_Dialog_Alert);
-                                builder.setTitle("Rules")
-                                        .setMessage("O calorio deve!\n" + "Retirar uma foto a cada edifício de forma a conhecer os mesmos")
+                                builder.setTitle(getString(R.string.rules))
+                                        .setMessage(getString(R.string.preambulo_osEdificios_1)+"\n" + getString(R.string.preambulo_osEdificios_2))
                                         .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                                             public void onClick(DialogInterface dialog, int which) {
 
@@ -471,8 +467,8 @@ public class TaskActivity extends AppCompatActivity {
                                 removeFences("localFence");
                                 AlertDialog.Builder builder;
                                 builder = new AlertDialog.Builder(TaskActivity.this, android.R.style.Theme_Material_Dialog_Alert);
-                                builder.setTitle("Rules")
-                                        .setMessage("O calorio tem de completar a seguinte questão!\n" + "A Biblioteca jośe Saramago é um espaço de Cultura,Conhecimento e ...??")
+                                builder.setTitle(getString(R.string.rules))
+                                        .setMessage(getString(R.string.preambulo_aBiblioteca_1)+"\n" + getString(R.string.preambulo_aBiblioteca_2))
                                         .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                                             public void onClick(DialogInterface dialog, int which) {
 
@@ -494,8 +490,11 @@ public class TaskActivity extends AppCompatActivity {
 
                                 AlertDialog.Builder builder;
                                 builder = new AlertDialog.Builder(TaskActivity.this, android.R.style.Theme_Material_Dialog_Alert);
-                                builder.setTitle("Rules")
-                                        .setMessage("POR PREENCHER!")
+                                builder.setTitle(getString(R.string.rules))
+                                        .setMessage(getString(R.string.preambulo_descompressao_1) +
+                                                "\n"+getString(R.string.preambulo_descompressao_2) +
+                                                "\n"+getString(R.string.preambulo_descompressao_3)+
+                                                "\n\n"+getString(R.string.premabulo_descompressao_4))
                                         .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                                             public void onClick(DialogInterface dialog, int which) {
 
@@ -560,7 +559,7 @@ public class TaskActivity extends AppCompatActivity {
                 .setTicker("PeddyPraxis")
                 //     .setPriority(Notification.PRIORITY_MAX)
                 .setContentTitle("PeddyPraxis")
-                .setContentText("You should not leave the task location!")
+                .setContentText(getString(R.string.you_cant_leave_task_location))
                 .setContentInfo("Info");
 
         notificationManager.notify(/*notification id*/mId, notificationBuilder.build());

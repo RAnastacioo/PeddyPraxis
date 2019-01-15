@@ -105,6 +105,8 @@ public class OsEdificios extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.osedificios);
 
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher_icon);
 
         Intent i = getIntent();
         task = (Task) i.getSerializableExtra("task");
@@ -117,14 +119,14 @@ public class OsEdificios extends AppCompatActivity {
                 if (local) {
 
                     AlertDialog.Builder builder = new AlertDialog.Builder(OsEdificios.this, android.R.style.Theme_Material_Dialog_Alert);
-                    builder.setMessage("Choose a picture")
-                            .setPositiveButton("Gallery", new DialogInterface.OnClickListener() {
+                    builder.setMessage(getString(R.string.choose_picture))
+                            .setPositiveButton(getString(R.string.gallery), new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {
                                     startGalleryChooser();
                                 }
                             })
-                            .setNegativeButton("Camera", new DialogInterface.OnClickListener() {
+                            .setNegativeButton(getString(R.string.camera), new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {
                                     startCamera();
@@ -133,7 +135,7 @@ public class OsEdificios extends AppCompatActivity {
                     builder.create().show();
 
                 } else {
-                    Snackbar.make(findViewById(android.R.id.content), "É necessario esta especificado de cada edificio!", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(findViewById(android.R.id.content), R.string.necessary_to_be_in_the_place_of_building, Snackbar.LENGTH_LONG).show();
                 }
 
             }
@@ -206,10 +208,6 @@ public class OsEdificios extends AppCompatActivity {
                 }
                 break;
         }
-    }
-
-    public void dsfsf(View view) {
-        queryFences();
     }
 
     protected void queryFences() {
@@ -358,7 +356,7 @@ public class OsEdificios extends AppCompatActivity {
             }
         } else {
             Log.d(TAG, "Image picker gave us a null image.");
-            Toast.makeText(this, "Something is wrong with that image. Pick a different one please.", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.problem_with_image_pick_a_diferente_one), Toast.LENGTH_LONG).show();
         }
     }
 
@@ -464,7 +462,7 @@ public class OsEdificios extends AppCompatActivity {
                         (edf.equalsIgnoreCase("C") && C) || (edf.equalsIgnoreCase("D") && D)
                         || (edf.equalsIgnoreCase("E") && E) || (edf.equalsIgnoreCase("Biblioteca") && library) ){
 
-                    Snackbar.make(findViewById(android.R.id.content), "Este edifício já foi reconhecido!", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(findViewById(android.R.id.content), R.string.building_already_been_recognized, Snackbar.LENGTH_LONG).show();
 
                 }
 
@@ -487,11 +485,11 @@ public class OsEdificios extends AppCompatActivity {
                     library=true;
                     bibli.setChecked(true);
                 } else {
-                    Snackbar.make(findViewById(android.R.id.content), "A foto deve ser retirada apenas aos edifícios solicitados "+"\n"+"Tente outra vez!", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(findViewById(android.R.id.content), getString(R.string.photo_need_to_be_of_the_requested_building)+"\n"+getString(R.string.try_again), Snackbar.LENGTH_LONG).show();
                 }
 
                 if(A && B && C && D && E && library){
-                    Snackbar.make(findViewById(android.R.id.content), "Finish!", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(findViewById(android.R.id.content), getString(R.string.finish), Snackbar.LENGTH_LONG).show();
 
                     task.setTaskComplete(true);
                     Intent intent = new Intent(OsEdificios.this, GameActivity.class);

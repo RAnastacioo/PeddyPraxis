@@ -66,6 +66,9 @@ public class BibliotecaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.abiblioteca);
 
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher_icon);
+
         imgView = findViewById(R.id.image_view);
         textRec = findViewById(R.id.textRecog);
 
@@ -141,7 +144,7 @@ public class BibliotecaActivity extends AppCompatActivity {
     private void processCloudTextRecognitionResult(FirebaseVisionDocumentText text) {
         // Task completed successfully
         if (text == null) {
-            Snackbar.make(findViewById(android.R.id.content), "Not found!", Snackbar.LENGTH_LONG).show();
+            Snackbar.make(findViewById(android.R.id.content), R.string.not_found, Snackbar.LENGTH_LONG).show();
             textRec.setVisibility(View.INVISIBLE);
             return;
         }
@@ -152,7 +155,7 @@ public class BibliotecaActivity extends AppCompatActivity {
 
         if(text.getText().toUpperCase().contains("CRIATIVIDADE")){
 
-            Snackbar.make(findViewById(android.R.id.content), "Finish!", Snackbar.LENGTH_LONG).show();
+            Snackbar.make(findViewById(android.R.id.content), R.string.finish, Snackbar.LENGTH_LONG).show();
             task.setTaskComplete(true);
             Intent intent = new Intent(BibliotecaActivity.this, GameActivity.class);
             intent.putExtra("FinishTask",task.getIdGame());
@@ -160,15 +163,12 @@ public class BibliotecaActivity extends AppCompatActivity {
             finish();
 
         } else {
-            Snackbar.make(findViewById(android.R.id.content), "Não foi detetada a resposta, tenta novamente! ", Snackbar.LENGTH_LONG).show();
+            Snackbar.make(findViewById(android.R.id.content), R.string.answer_not_detected_try_again, Snackbar.LENGTH_LONG).show();
         }
 
 
     }
 
-    public void dsfsf(View view) {
-        queryFences();
-    }
 
     protected void queryFences() {
 
@@ -276,16 +276,16 @@ public class BibliotecaActivity extends AppCompatActivity {
         if (imageBitmap == null) {
             //dispatchTakePictureIntent();
             AlertDialog.Builder builder = new AlertDialog.Builder(BibliotecaActivity.this,android.R.style.Theme_Material_Dialog_Alert);
-            builder.setMessage("Choose a picture")
-                    .setPositiveButton("Gallery", new DialogInterface.OnClickListener() {
+            builder.setMessage(R.string.choose_picture)
+                    .setPositiveButton(R.string.gallery, new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             Intent pickPhoto = new Intent(Intent.ACTION_PICK,
-                                    android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+                                    MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                             startActivityForResult(pickPhoto , 1);//one can be replaced with any action code
                         }
                     })
-                    .setNegativeButton("Camera", new DialogInterface.OnClickListener() {
+                    .setNegativeButton(R.string.camera, new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             Intent takePicture = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);

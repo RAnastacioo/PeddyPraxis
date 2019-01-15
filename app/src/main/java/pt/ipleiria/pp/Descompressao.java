@@ -94,7 +94,7 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
     private ProgressBar progressBar;
     private TextView progressTime;
     private CountDownTimer gameCountDownTimer, timer;
-    private static final int min = 10;
+    private static final int min = 1;
 
     private TextView textViewScreenDown;
     private TextView textViewPlaces;
@@ -113,6 +113,14 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.descompressao);
+
+        weatherState();
+        removeFences(FENCEKEY);
+
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher_icon);
+
+
         //textView_main = findViewById(R.id.textViewScreenDown);
         progressBar = findViewById(R.id.progressBar_Des);
         textViewScreenDown = findViewById(R.id.textViewDescompressao);
@@ -134,6 +142,8 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
         task = (Task) i.getSerializableExtra("task");
         task = SingletonPPB.getInstance().containsIDTask(task.getId());
 
+        setTimer(60 * min);
+
     }
 
     private void setTimer(int time) {
@@ -144,7 +154,7 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
 
         queryFences();
 
-        gameCountDownTimer = new CountDownTimer(actualTime, 5000) {
+        gameCountDownTimer = new CountDownTimer(actualTime, 2000) {
             int totalTime = actualTime;
 
             @Override
@@ -160,16 +170,16 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
                     if (goodWeather & screenDown & location) {
 
                         Snackbar.make(findViewById(android.R.id.content),
-                                "Screen down: " + screenDown, Snackbar.LENGTH_SHORT).show();
+                                getString(R.string.screen_down) + screenDown, Snackbar.LENGTH_SHORT).show();
 
                     } else {
 
                         if (!goodWeather & !location) {
                             AlertDialog.Builder builder;
                             builder = new AlertDialog.Builder(Descompressao.this, android.R.style.Theme_Material_Dialog_Alert);
-                            builder.setTitle("Atention!")
-                                    .setMessage("Need to go to other place, the weather it's not good!" +
-                                            "\nPlease go to the nearest place, choose one of this 3!!")
+                            builder.setTitle(R.string.atention)
+                                    .setMessage(getString(R.string.need_go_to_other_place) +
+                                            getString(R.string.please_go_to_neares_place))
                                     .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                                         public void onClick(DialogInterface dialog, int which) {
                                             checkPrintPlaces = true;
@@ -181,27 +191,25 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
                             Log.d(TAG_DESCOMPRESSAO, "Need to go to other place, the weather it's not good!");
 
                             goodWeather = true;
-                            Snackbar.make(findViewById(android.R.id.content),
-                                    "GO to one of theese 3 places!", Snackbar.LENGTH_LONG).show();
                         }else{
                             if (!location) {
-                                //goodWeather = true;
+                                checkPrintPlaces = true;
+                                nearbyPlaces();
                                 Snackbar.make(findViewById(android.R.id.content),
-                                        "GO to one of theese 3 places!", Snackbar.LENGTH_LONG).show();
+                                        R.string.go_to_one_of_theese_3_places, Snackbar.LENGTH_LONG).show();
                             }else{
                                 if (!screenDown) {
                                     Timestamp timestamp = new Timestamp(System.currentTimeMillis());
                                     progressBar.setVisibility(View.VISIBLE);
                                     progressTime.setVisibility(View.VISIBLE);
                                     textViewPlaces.setVisibility(View.INVISIBLE);
-                                    textViewScreenDown.setText("Put the SCREEN DOWN!");
+                                    textViewScreenDown.setText(getString(R.string.put_screen_down));
 
                                     Snackbar.make(findViewById(android.R.id.content),
-                                            "You need to put de screen down!", Snackbar.LENGTH_SHORT).show();
+                                            R.string.put_screen_down_snack_bar, Snackbar.LENGTH_SHORT).show();
                                 }
                             }
                         }
-
                         gameCountDownTimer.cancel();
                         gameCountDownTimer = null;
                         timer.cancel();
@@ -216,9 +224,9 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
                 progress = 100;
                 progressBar.setProgress(progress);
                 // finish activity
-                Snackbar.make(findViewById(android.R.id.content), "finish", Snackbar.LENGTH_LONG).show();
-                String title = "\tDescompressao: time out!";
-                String text = "\tTarefa completa com sucesso!";
+                Snackbar.make(findViewById(android.R.id.content), getString(R.string.finish), Snackbar.LENGTH_LONG).show();
+                String title = getString(R.string.descompressao_time_out);
+                String text = getString(R.string.task_completed_with_success);
                 notifyItem(title, text);
                 task.setTaskComplete(true);
                 Intent intent = new Intent(Descompressao.this, GameActivity.class);
@@ -235,13 +243,13 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
             @Override
             public void onTick(long millisUntilFinished) {
                 long millis = millisUntilFinished;
-                String hms = String.format("Time: %02d:%02d", TimeUnit.MILLISECONDS.toMinutes(millis) - TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS.toHours(millis)), TimeUnit.MILLISECONDS.toSeconds(millis) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(millis)));
+                String hms = String.format(getString(R.string.time)+" %02d:%02d", TimeUnit.MILLISECONDS.toMinutes(millis) - TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS.toHours(millis)), TimeUnit.MILLISECONDS.toSeconds(millis) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(millis)));
                 progressTime.setText(hms);
             }
 
             @Override
             public void onFinish() {
-                progressTime.setText("Time: FINISH");
+                progressTime.setText(getString(R.string.time)+getString(R.string.finish));
                 finishTask = true;
             }
         }.start();
@@ -263,13 +271,13 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
                     Settings.Secure.LOCATION_MODE);
             if (locationMode != Settings.Secure.LOCATION_MODE_HIGH_ACCURACY) {
                 Toast.makeText(this,
-                        "Error: high accuracy location mode must be enabled in the device.",
+                        getString(R.string.error_high_accuracy_location),
                         Toast.LENGTH_LONG).show();
                 return;
 
             }
         } catch (Settings.SettingNotFoundException e) {
-            Toast.makeText(this, "Error: could not access location mode.",
+            Toast.makeText(this, getString(R.string.error_location),
                     Toast.LENGTH_LONG).show();
             e.printStackTrace();
             return;
@@ -290,43 +298,43 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
                         for (int condition : weather.getConditions()) {
                             switch (condition) {
                                 case Weather.CONDITION_CLEAR:
-                                    weatherCond = " Clear weather condition.";
+                                    weatherCond = getString(R.string.clear_weather);
                                     goodWeather = false;
                                     break;
                                 case Weather.CONDITION_CLOUDY:
-                                    weatherCond = " Cloudy weather condition.";
+                                    weatherCond = getString(R.string.cloudy_weather);
                                     goodWeather = true;
                                     break;
                                 case Weather.CONDITION_FOGGY:
-                                    weatherCond = " Foggy weather condition.";
+                                    weatherCond = getString(R.string.foggy_weather);
                                     goodWeather = true;
                                     break;
                                 case Weather.CONDITION_HAZY:
-                                    weatherCond = " Hazy weather condition.";
+                                    weatherCond = getString(R.string.hazy_weather);
                                     goodWeather = true;
                                     break;
                                 case Weather.CONDITION_ICY:
-                                    weatherCond = " Icy weather condition.";
+                                    weatherCond = getString(R.string.icy_weather);
                                     goodWeather = false;
                                     break;
                                 case Weather.CONDITION_RAINY:
-                                    weatherCond = " Rainy weather condition.";
+                                    weatherCond = getString(R.string.rainy_weather);
                                     goodWeather = false;
                                     break;
                                 case Weather.CONDITION_SNOWY:
-                                    weatherCond = " Snowy weather condition.";
+                                    weatherCond = getString(R.string.snowy_weather);
                                     goodWeather = false;
                                     break;
                                 case Weather.CONDITION_STORMY:
-                                    weatherCond = " Stormy weather condition.";
+                                    weatherCond = getString(R.string.strormy_weather);
                                     goodWeather = false;
                                     break;
                                 case Weather.CONDITION_UNKNOWN:
-                                    weatherCond = " Unknown weather condition.";
+                                    weatherCond = getString(R.string.unknown_weather);
                                     goodWeather = true;
                                     break;
                                 case Weather.CONDITION_WINDY:
-                                    weatherCond = " Windy weather condition.";
+                                    weatherCond = getString(R.string.windy_weather);
                                     goodWeather = true;
                                     break;
                             }
@@ -335,7 +343,7 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
                         location = goodWeather;
                         Log.d(TAG_DESCOMPRESSAO, "VAR: goodWaether: " + goodWeather + " - location: " +location);
                         Log.d(TAG_DESCOMPRESSAO, "Weather condition: " + weatherCond);
-                        Toast.makeText(Descompressao.this, "Weather condition:" + weatherCond,
+                        Toast.makeText(Descompressao.this, getString(R.string.weather_condition) + weatherCond,
                                 Toast.LENGTH_SHORT).show();
 
                     }
@@ -344,7 +352,7 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
                     @Override
                     public void onFailure(@NonNull Exception e) {
                         Log.e(TAG_DESCOMPRESSAO, "Could not get Weather: " + e);
-                        Toast.makeText(Descompressao.this, "Could not get Weather: " + e,
+                        Toast.makeText(Descompressao.this, getString(R.string.could_not_get_weather) + e,
                                 Toast.LENGTH_SHORT).show();
                     }
                 });
@@ -366,14 +374,14 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
                             PlaceLikelihood pl = pll.get(i);
 
                             plText += "\t#" + (i + 1) + ": " + pl.getPlace().getName().toString().toUpperCase()
-                                    + "\n\tAddress: " + pl.getPlace().getAddress()
-                                    + "\n\tLocation: " + pl.getPlace().getLatLng()
-                                    + "\n\tPlaceTypes: "
+                                    + "\n\t"+getString(R.string.address) + pl.getPlace().getAddress()
+                                    + "\n\t"+getString(R.string.location) + pl.getPlace().getLatLng()
+                                    + "\n\t" +getString(R.string.place_types)
                                     + "\t" + printPlaceTypes(pl.getPlace().getPlaceTypes());
                             if(i==(numPlaces-1)){
                                 plText+= "\n";
                             }else{
-                                plText+= "\n\t--or--\n";
+                                plText+= "\n\t"+getString(R.string.or)+"\n";
                             }
 
                         }
@@ -391,7 +399,7 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
                             progressBar.setVisibility(View.INVISIBLE);
                             textViewPlaces.setVisibility(View.VISIBLE);
                             textViewPlaces.setText(plText);
-                            textViewScreenDown.setText("Go to the nearest place");
+                            textViewScreenDown.setText(getString(R.string.please_go_to_neares_place));
                         }else{
                             Log.d(TAG_DESCOMPRESSAO, "Create fences:  just creating fences!");
                         }
@@ -402,7 +410,7 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
                     @Override
                     public void onFailure(@NonNull Exception e) {
                         Log.e(TAG_DESCOMPRESSAO, "Could not get Places: " + e);
-                        Toast.makeText(Descompressao.this, "Could not get Places: " + e,
+                        Toast.makeText(Descompressao.this, getString(R.string.could_not_get_places) + e,
                                 Toast.LENGTH_SHORT).show();
                     }
                 });
@@ -961,25 +969,11 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
     protected void onResume() {
         super.onResume();
         removeFences(FENCEKEY);
-        if(!finishTask){
-            checkPrintPlaces = false;
-            nearbyPlaces();
-        }else {
-            AlertDialog.Builder builder;
-            builder = new AlertDialog.Builder(Descompressao.this, android.R.style.Theme_Material_Dialog_Alert);
-            builder.setTitle("Task alreay completed!")
-                    .setMessage("Task is already completed with sucess!" +
-                            "\nPlease choose another one!!")
-                    .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int which) {
-                            ///mandar para a task activity
-                        }
-                    })
-                    .setIcon(android.R.drawable.ic_dialog_info)
-                    .show().setCanceledOnTouchOutside(false);
-        }
+//        if(!finishTask){
+//            checkPrintPlaces = false;
+//            nearbyPlaces();
+//        }
         weatherState();
-        setTimer(60 * min);
     }
 
     @Override
@@ -987,10 +981,10 @@ public class Descompressao extends AppCompatActivity implements SensorEventListe
         super.onPause();
         clearnotify();
         removeFences(FENCEKEY);
-        gameCountDownTimer.cancel();
-        gameCountDownTimer = null;
-        timer.cancel();
-        timer = null;
+//        gameCountDownTimer.cancel();
+//        gameCountDownTimer = null;
+//        timer.cancel();
+//        timer = null;
     }
 
 

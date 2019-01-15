@@ -44,6 +44,11 @@ import com.google.android.gms.awareness.fence.TimeFence;
 import com.google.android.gms.awareness.snapshot.PlacesResponse;
 import com.google.android.gms.awareness.snapshot.WeatherResponse;
 import com.google.android.gms.awareness.state.Weather;
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationCallback;
+import com.google.android.gms.location.LocationRequest;
+import com.google.android.gms.location.LocationResult;
+import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.location.places.PlaceLikelihood;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -81,6 +86,9 @@ public class GameActivity extends AppCompatActivity {
     private PendingIntent myPendingIntent;
     private GameActivity.FenceReceiver fenceReceiver;
 
+    private FusedLocationProviderClient mFusedLocationClient;
+    private LocationCallback mLocationCallback;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -110,10 +118,29 @@ public class GameActivity extends AppCompatActivity {
         fenceReceiver = new GameActivity.FenceReceiver();
         registerReceiver(fenceReceiver, new IntentFilter(FENCE_RECEIVER_ACTION));
 
+        mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
+        mLocationCallback = new LocationCallback() {
+            @Override
+            public void onLocationResult(LocationResult locationResult) {
+            }
+        };
+
+        LocationRequest mLocationRequest = LocationRequest.create();
+        mLocationRequest.setInterval(2000).setFastestInterval(1000).setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
+        mFusedLocationClient.requestLocationUpdates(mLocationRequest, mLocationCallback, null);
+
+
         Intent i = getIntent();
-
-
-
         if (i.getStringExtra(ID_VIEW_GAME) != null || i.getStringExtra("FinishTask") != null) {
 
             if (i.getStringExtra(ID_VIEW_GAME) != null) {
@@ -128,7 +155,7 @@ public class GameActivity extends AppCompatActivity {
             }
 
             if(i.getStringExtra("FinishTask") != null) {
-                Snackbar.make(findViewById(android.R.id.content), "Tarefa Concluida!", Snackbar.LENGTH_LONG).show();
+                Snackbar.make(findViewById(android.R.id.content), getString(R.string.task_completed_with_success), Snackbar.LENGTH_LONG).show();
 
                 boolean alltrue = true;
                 for (int j = 0; j < game.getTasks().size(); j++) {
@@ -147,30 +174,40 @@ public class GameActivity extends AppCompatActivity {
 
             mAdapter.updateFullList(game);
 
-            etTitle.setHint("Title: "+game.getTitle());
-            etDescription.setHint("Description: "+game.getDescription());
-            etAuthor.setHint("Author: "+game.getAuthor());
-            etDuration.setHint("Duration: " + game.getDurationGame() +" minutes");
+            etTitle.setHint(getString(R.string.title)+game.getTitle());
+            etDescription.setHint(getString(R.string.description)+game.getDescription());
+            etAuthor.setHint(getString(R.string.author)+game.getAuthor());
+            etDuration.setHint(getString(R.string.duration) + game.getDurationGame() +getString(R.string.minutes));
             etId.setText("" + game.getId());
             etDate.setText(game.getLastUpdate());
 
-            long nowMillis = System.currentTimeMillis();
-            AwarenessFence timeFence = TimeFence.inInterval(nowMillis,game.getDurationGame()*60000+nowMillis);
-            addFence("timeFence", timeFence);
 
-            long time50 = (long) (((game.getDurationGame())/(double)2)*60000+nowMillis);
-            AwarenessFence timeFence50 = TimeFence.inInterval(nowMillis,time50);
-            addFence("timeFence50", timeFence50);
+            if(!game.isGameInProgress()) {
+                long nowMillis = System.currentTimeMillis();
+                AwarenessFence timeFence = TimeFence.inInterval(nowMillis, game.getDurationGame() * 60000 + nowMillis);
+                addFence("timeFence", timeFence);
 
-            long  time10 = (long) (((game.getDurationGame())*60000)*(double)0.9);
-            AwarenessFence timeFence10 = TimeFence.inInterval(nowMillis,time10+nowMillis);
-            addFence("timeFence10", timeFence10);
+                long time50 = (long) (((game.getDurationGame()) / (double) 2) * 60000 + nowMillis);
+                AwarenessFence timeFence50 = TimeFence.inInterval(nowMillis, time50);
+                addFence("timeFence50", timeFence50);
+
+                long time10 = (long) (((game.getDurationGame()) * 60000) * (double) 0.9);
+                AwarenessFence timeFence10 = TimeFence.inInterval(nowMillis, time10 + nowMillis);
+                addFence("timeFence10", timeFence10);
+
+                game.setGameInProgress(true);
+            }else {
+
+                Snackbar.make(findViewById(android.R.id.content), "Este jogo ja foi iniciado", Snackbar.LENGTH_LONG).show();
+            }
 
 
         }
 
 
     }
+
+
 
     protected void queryFences() {
         Awareness.getFenceClient(this).queryFences(FenceQueryRequest.all())
@@ -219,7 +256,7 @@ public class GameActivity extends AppCompatActivity {
             fileOutputStream.close();
         } catch (IOException e) {
             e.printStackTrace();
-            Toast.makeText(GameActivity.this, "Error_write_Game_to_internal", Toast.LENGTH_LONG).show();
+            Toast.makeText(GameActivity.this, getString(R.string.error_write_game_to_internal), Toast.LENGTH_LONG).show();
         }
     }
 
@@ -257,9 +294,6 @@ public class GameActivity extends AppCompatActivity {
                 });
     }
 
-    public void onclick(View view) {
-        queryFences();
-    }
 
     private class FenceReceiver extends BroadcastReceiver {
         @Override
@@ -281,6 +315,9 @@ public class GameActivity extends AppCompatActivity {
                             notifyItem("Time to finish","the time is over");
                             removeFences();
                             game.setTimeOver(true);
+                            game.setGameInProgress(false);
+
+                            mFusedLocationClient.removeLocationUpdates(mLocationCallback);
 
                             if(game!=null){
                                 boolean alltrue=true;
@@ -426,4 +463,5 @@ public class GameActivity extends AppCompatActivity {
         Date date = Calendar.getInstance().getTime();
         return date;
     }
+
 }

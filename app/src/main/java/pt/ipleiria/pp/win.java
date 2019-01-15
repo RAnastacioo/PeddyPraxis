@@ -18,6 +18,9 @@ public class win extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_win);
 
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher_icon);
+
         Animation animRotate = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.sequential);
         container = (ShimmerFrameLayout) findViewById(R.id.shimmer_view_container1);
         container.startAnimation(animRotate);
